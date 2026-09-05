@@ -1,6 +1,6 @@
 import pandas as pd
-
-
+import random
+random.seed(42)
 entities = [
     {
         "entity_id": "CSE-001",
