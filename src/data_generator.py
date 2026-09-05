@@ -485,3 +485,75 @@ print(
     f"\nTotal investigations generated: "
     f"{len(investigations_df)}"
 )
+
+# -------------------------
+# Escalation Generation
+# -------------------------
+
+escalations = []
+escalation_counter = 1
+
+for case in cases:
+
+    # Not every case requires escalation
+    if random.random() < 0.30:
+
+        escalation_time = datetime.strptime(
+            case["case_created_time"],
+            "%Y-%m-%d %H:%M:%S"
+        ) + timedelta(
+            minutes=random.randint(30, 1440)
+        )
+
+        escalation_level = random.choice([
+            "Level 1",
+            "Level 2",
+            "Level 3"
+        ])
+
+        escalated_to = random.choice([
+            "SOC Lead",
+            "Incident Response Team",
+            "Security Manager",
+            "CISO Office"
+        ])
+
+        escalation_reason = random.choice([
+            "High Severity Alert",
+            "Critical Asset Involved",
+            "Potential Security Incident",
+            "Repeated Alert Pattern",
+            "Investigation Requires Escalation"
+        ])
+
+        escalations.append({
+            "escalation_id": (
+                f"ESC-{escalation_counter:04d}"
+            ),
+            "case_id": case["case_id"],
+            "escalated": True,
+            "escalation_level": escalation_level,
+            "escalated_to": escalated_to,
+            "escalation_time": escalation_time.strftime(
+                "%Y-%m-%d %H:%M:%S"
+            ),
+            "escalation_reason": escalation_reason
+        })
+
+        escalation_counter += 1
+
+
+escalations_df = pd.DataFrame(escalations)
+
+escalations_df.to_csv(
+    "data/synthetic/escalations.csv",
+    index=False
+)
+
+print("\nEscalations:")
+print(escalations_df.head())
+
+print(
+    f"\nTotal escalations generated: "
+    f"{len(escalations_df)}"
+)
