@@ -1,0 +1,558 @@
+case_id,assessment_id,case_created_time,priority,status,disposition,closure_time,closure_reason
+CASE-0001,A-001,2026-03-24 01:38:00,Medium,Closed,Needs Review,2026-03-26 14:38:00,No Further Action
+CASE-0002,A-001,2026-03-05 11:45:00,Critical,Closed,False Positive,2026-03-06 03:45:00,No Further Action
+CASE-0003,A-001,2026-02-20 00:18:00,Low,In Progress,False Positive,,
+CASE-0004,A-001,2026-01-04 11:03:00,Medium,Closed,Benign,2026-01-06 05:03:00,False Positive
+CASE-0005,A-001,2026-03-05 00:56:00,Medium,Closed,Benign,2026-03-05 01:56:00,False Positive
+CASE-0006,A-001,2026-01-07 18:54:00,Medium,Closed,False Positive,2026-01-09 19:54:00,No Further Action
+CASE-0007,A-001,2026-02-01 00:54:00,Medium,Open,False Positive,,
+CASE-0008,A-001,2026-01-04 18:04:00,Critical,Closed,False Positive,2026-01-06 08:04:00,False Positive
+CASE-0009,A-001,2026-01-04 20:27:00,Medium,Open,Needs Review,,
+CASE-0010,A-001,2026-03-10 16:20:00,Medium,Closed,True Positive,2026-03-12 06:20:00,Resolved
+CASE-0011,A-001,2026-03-25 04:50:00,Low,Closed,Benign,2026-03-26 04:50:00,False Positive
+CASE-0012,A-001,2026-02-17 14:31:00,Medium,Closed,Needs Review,2026-02-19 11:31:00,Contained
+CASE-0013,A-001,2026-02-13 15:17:00,Medium,Closed,False Positive,2026-02-15 11:17:00,No Further Action
+CASE-0014,A-001,2026-02-19 08:55:00,Medium,Closed,True Positive,2026-02-22 04:55:00,No Further Action
+CASE-0015,A-001,2026-01-31 22:51:00,Medium,In Progress,Needs Review,,
+CASE-0016,A-001,2026-02-08 10:05:00,Critical,Closed,False Positive,2026-02-11 06:05:00,Resolved
+CASE-0017,A-001,2026-01-07 10:09:00,Medium,Closed,Needs Review,2026-01-07 19:09:00,Contained
+CASE-0018,A-001,2026-01-19 05:31:00,Low,Closed,True Positive,2026-01-21 14:31:00,Contained
+CASE-0019,A-001,2026-02-25 06:26:00,Medium,In Progress,False Positive,,
+CASE-0020,A-001,2026-02-18 07:35:00,High,Closed,True Positive,2026-02-21 04:35:00,No Further Action
+CASE-0021,A-001,2026-03-23 22:13:00,Low,Open,Benign,,
+CASE-0022,A-001,2026-03-30 19:15:00,High,Closed,Benign,2026-03-31 14:15:00,Resolved
+CASE-0023,A-001,2026-02-04 18:27:00,Low,Closed,Needs Review,2026-02-06 11:27:00,False Positive
+CASE-0024,A-001,2026-01-02 21:16:00,Low,Closed,True Positive,2026-01-04 20:16:00,Contained
+CASE-0025,A-001,2026-03-18 23:57:00,Medium,Closed,Benign,2026-03-20 15:57:00,Contained
+CASE-0026,A-001,2026-01-09 18:48:00,Low,Closed,True Positive,2026-01-09 19:48:00,Resolved
+CASE-0027,A-001,2026-03-04 17:22:00,High,Closed,Needs Review,2026-03-05 23:22:00,Resolved
+CASE-0028,A-001,2026-01-10 04:28:00,Medium,Open,True Positive,,
+CASE-0029,A-001,2026-01-28 04:35:00,High,Closed,False Positive,2026-01-28 23:35:00,Resolved
+CASE-0030,A-001,2026-02-09 08:35:00,Low,Closed,True Positive,2026-02-10 21:35:00,No Further Action
+CASE-0031,A-001,2026-02-12 19:34:00,Medium,Closed,Needs Review,2026-02-13 22:34:00,Contained
+CASE-0032,A-001,2026-01-13 11:57:00,Low,Closed,False Positive,2026-01-14 03:57:00,No Further Action
+CASE-0033,A-001,2026-02-16 05:48:00,Medium,Closed,True Positive,2026-02-19 03:48:00,No Further Action
+CASE-0034,A-001,2026-01-10 16:40:00,High,Closed,Needs Review,2026-01-12 15:40:00,Resolved
+CASE-0035,A-001,2026-03-24 16:10:00,Low,Open,Needs Review,,
+CASE-0036,A-001,2026-01-11 21:35:00,Low,Open,Needs Review,,
+CASE-0037,A-001,2026-02-15 21:17:00,Medium,Closed,Needs Review,2026-02-18 14:17:00,False Positive
+CASE-0038,A-001,2026-03-06 05:13:00,Medium,Closed,Benign,2026-03-06 19:13:00,False Positive
+CASE-0039,A-001,2026-01-26 04:04:00,Low,Open,True Positive,,
+CASE-0040,A-001,2026-01-21 06:44:00,High,Open,Benign,,
+CASE-0041,A-001,2026-01-16 21:40:00,Low,Closed,Needs Review,2026-01-18 11:40:00,Resolved
+CASE-0042,A-001,2026-03-22 19:47:00,Low,Closed,Benign,2026-03-24 06:47:00,False Positive
+CASE-0043,A-001,2026-01-17 13:16:00,Low,Closed,False Positive,2026-01-18 21:16:00,Resolved
+CASE-0044,A-001,2026-01-24 05:30:00,Low,Closed,True Positive,2026-01-26 11:30:00,False Positive
+CASE-0045,A-001,2026-01-13 01:23:00,Low,Closed,False Positive,2026-01-13 17:23:00,Contained
+CASE-0046,A-001,2026-03-27 05:33:00,Critical,Closed,True Positive,2026-03-28 13:33:00,No Further Action
+CASE-0047,A-001,2026-02-24 14:05:00,High,Closed,Benign,2026-02-25 12:05:00,Resolved
+CASE-0048,A-001,2026-03-27 16:00:00,Low,Open,True Positive,,
+CASE-0049,A-001,2026-02-14 02:02:00,High,Closed,Benign,2026-02-15 22:02:00,Contained
+CASE-0050,A-001,2026-02-19 05:38:00,Low,In Progress,Needs Review,,
+CASE-0051,A-001,2026-01-26 14:17:00,Low,Closed,False Positive,2026-01-29 01:17:00,Resolved
+CASE-0052,A-001,2026-02-07 23:21:00,Critical,Closed,Needs Review,2026-02-10 09:21:00,No Further Action
+CASE-0053,A-001,2026-01-20 16:47:00,Critical,Closed,Benign,2026-01-21 13:47:00,No Further Action
+CASE-0054,A-001,2026-03-27 05:35:00,High,Closed,Benign,2026-03-28 16:35:00,Contained
+CASE-0055,A-001,2026-03-23 09:42:00,Medium,In Progress,True Positive,,
+CASE-0056,A-001,2026-01-21 18:44:00,Critical,Closed,Needs Review,2026-01-22 02:44:00,Contained
+CASE-0057,A-001,2026-02-25 21:36:00,Low,Closed,Needs Review,2026-02-26 20:36:00,Contained
+CASE-0058,A-001,2026-03-02 03:26:00,Critical,In Progress,False Positive,,
+CASE-0059,A-001,2026-01-03 09:48:00,High,Closed,False Positive,2026-01-05 18:48:00,Contained
+CASE-0060,A-001,2026-03-15 10:58:00,Low,In Progress,Benign,,
+CASE-0061,A-002,2026-05-22 05:36:00,Medium,Open,False Positive,,
+CASE-0062,A-002,2026-06-27 19:53:00,High,Closed,True Positive,2026-06-28 14:53:00,False Positive
+CASE-0063,A-002,2026-05-13 16:23:00,High,Closed,Needs Review,2026-05-14 18:23:00,False Positive
+CASE-0064,A-002,2026-05-28 20:29:00,Medium,In Progress,Needs Review,,
+CASE-0065,A-002,2026-06-06 13:58:00,Low,Closed,Needs Review,2026-06-08 21:58:00,No Further Action
+CASE-0066,A-002,2026-06-09 17:25:00,Low,Closed,Needs Review,2026-06-11 06:25:00,No Further Action
+CASE-0067,A-002,2026-04-20 11:37:00,High,In Progress,False Positive,,
+CASE-0068,A-002,2026-04-12 14:49:00,Medium,Closed,False Positive,2026-04-14 07:49:00,Contained
+CASE-0069,A-002,2026-06-04 13:39:00,Medium,Closed,False Positive,2026-06-05 08:39:00,False Positive
+CASE-0070,A-002,2026-06-05 15:29:00,High,Open,Needs Review,,
+CASE-0071,A-002,2026-05-28 09:40:00,Medium,In Progress,True Positive,,
+CASE-0072,A-002,2026-05-26 13:04:00,Medium,Open,Benign,,
+CASE-0073,A-002,2026-05-26 05:44:00,High,In Progress,True Positive,,
+CASE-0074,A-002,2026-06-22 10:01:00,Low,In Progress,Needs Review,,
+CASE-0075,A-002,2026-04-12 17:28:00,Medium,Closed,True Positive,2026-04-14 06:28:00,False Positive
+CASE-0076,A-002,2026-04-20 14:24:00,High,Closed,False Positive,2026-04-21 10:24:00,False Positive
+CASE-0077,A-002,2026-05-07 17:59:00,Medium,Closed,True Positive,2026-05-10 16:59:00,Resolved
+CASE-0078,A-002,2026-06-09 10:53:00,Medium,Closed,Benign,2026-06-10 15:53:00,Resolved
+CASE-0079,A-002,2026-04-04 16:34:00,High,In Progress,False Positive,,
+CASE-0080,A-002,2026-04-07 15:40:00,Low,Closed,True Positive,2026-04-08 18:40:00,Resolved
+CASE-0081,A-002,2026-06-11 15:35:00,Low,In Progress,Needs Review,,
+CASE-0082,A-002,2026-06-03 05:55:00,Low,Closed,False Positive,2026-06-03 22:55:00,Resolved
+CASE-0083,A-002,2026-04-18 20:57:00,Low,In Progress,True Positive,,
+CASE-0084,A-002,2026-06-04 03:21:00,Medium,Closed,Benign,2026-06-05 08:21:00,Contained
+CASE-0085,A-002,2026-04-06 22:39:00,High,Closed,Benign,2026-04-08 21:39:00,False Positive
+CASE-0086,A-002,2026-05-12 23:21:00,Low,Closed,True Positive,2026-05-13 16:21:00,No Further Action
+CASE-0087,A-002,2026-06-07 13:48:00,Medium,In Progress,True Positive,,
+CASE-0088,A-002,2026-04-29 04:38:00,Low,In Progress,True Positive,,
+CASE-0089,A-002,2026-05-29 18:06:00,Medium,Closed,False Positive,2026-05-30 18:06:00,Resolved
+CASE-0090,A-002,2026-04-19 17:49:00,Low,Closed,True Positive,2026-04-21 07:49:00,No Further Action
+CASE-0091,A-002,2026-04-29 09:58:00,Medium,Open,False Positive,,
+CASE-0092,A-002,2026-05-03 22:09:00,Low,Closed,False Positive,2026-05-04 23:09:00,Contained
+CASE-0093,A-002,2026-04-05 06:15:00,High,Closed,True Positive,2026-04-05 23:15:00,No Further Action
+CASE-0094,A-002,2026-05-10 21:34:00,High,In Progress,Needs Review,,
+CASE-0095,A-002,2026-05-24 18:24:00,High,Closed,Needs Review,2026-05-25 18:24:00,No Further Action
+CASE-0096,A-002,2026-06-05 22:56:00,Critical,In Progress,True Positive,,
+CASE-0097,A-002,2026-05-14 15:49:00,Critical,Closed,True Positive,2026-05-15 12:49:00,Resolved
+CASE-0098,A-002,2026-04-13 16:00:00,Medium,In Progress,Needs Review,,
+CASE-0099,A-002,2026-06-21 23:18:00,High,Closed,False Positive,2026-06-23 07:18:00,Resolved
+CASE-0100,A-002,2026-04-21 01:02:00,Medium,In Progress,Needs Review,,
+CASE-0101,A-002,2026-05-14 08:51:00,Low,Closed,Needs Review,2026-05-14 18:51:00,Contained
+CASE-0102,A-002,2026-04-24 13:49:00,Low,Closed,False Positive,2026-04-25 08:49:00,Contained
+CASE-0103,A-002,2026-04-27 21:57:00,Low,Closed,Benign,2026-04-29 22:57:00,Resolved
+CASE-0104,A-002,2026-05-03 11:41:00,High,In Progress,True Positive,,
+CASE-0105,A-002,2026-04-21 02:16:00,Medium,In Progress,False Positive,,
+CASE-0106,A-002,2026-06-03 01:00:00,Low,Closed,Needs Review,2026-06-04 22:00:00,No Further Action
+CASE-0107,A-002,2026-04-20 16:58:00,Critical,Closed,Benign,2026-04-22 00:58:00,Contained
+CASE-0108,A-002,2026-04-07 02:19:00,Low,Open,False Positive,,
+CASE-0109,A-002,2026-05-05 05:04:00,Medium,Closed,False Positive,2026-05-05 10:04:00,Contained
+CASE-0110,A-002,2026-05-05 00:04:00,Low,In Progress,True Positive,,
+CASE-0111,A-002,2026-05-24 03:39:00,Low,Closed,False Positive,2026-05-24 15:39:00,False Positive
+CASE-0112,A-002,2026-06-07 22:41:00,Medium,Closed,Needs Review,2026-06-09 03:41:00,Contained
+CASE-0113,A-002,2026-05-22 17:56:00,Low,Closed,Needs Review,2026-05-25 12:56:00,False Positive
+CASE-0114,A-002,2026-06-05 12:20:00,Low,Closed,Needs Review,2026-06-05 22:20:00,Resolved
+CASE-0115,A-002,2026-04-13 11:02:00,High,Closed,False Positive,2026-04-15 15:02:00,Resolved
+CASE-0116,A-002,2026-05-17 11:17:00,Medium,Open,False Positive,,
+CASE-0117,A-002,2026-05-27 14:34:00,Medium,Closed,Needs Review,2026-05-30 00:34:00,Resolved
+CASE-0118,A-002,2026-06-16 15:32:00,Low,Closed,Needs Review,2026-06-17 20:32:00,False Positive
+CASE-0119,A-002,2026-06-27 19:15:00,Critical,Open,False Positive,,
+CASE-0120,A-002,2026-05-06 00:33:00,Medium,Closed,True Positive,2026-05-08 23:33:00,Contained
+CASE-0121,A-002,2026-06-28 22:11:00,Low,Closed,True Positive,2026-06-30 23:11:00,Resolved
+CASE-0122,A-002,2026-04-23 08:04:00,Medium,Closed,False Positive,2026-04-24 21:04:00,No Further Action
+CASE-0123,A-002,2026-06-01 22:03:00,Medium,Closed,Benign,2026-06-03 01:03:00,No Further Action
+CASE-0124,A-002,2026-05-14 23:50:00,Low,Closed,Needs Review,2026-05-15 02:50:00,Contained
+CASE-0125,A-002,2026-06-07 06:16:00,High,In Progress,Needs Review,,
+CASE-0126,A-002,2026-05-15 08:43:00,Low,Closed,Needs Review,2026-05-16 09:43:00,No Further Action
+CASE-0127,A-002,2026-06-05 13:10:00,Low,Open,Needs Review,,
+CASE-0128,A-003,2026-01-14 14:36:00,Low,Closed,True Positive,2026-01-15 10:36:00,No Further Action
+CASE-0129,A-003,2026-02-17 16:59:00,High,Open,True Positive,,
+CASE-0130,A-003,2026-01-29 00:01:00,Low,Closed,Needs Review,2026-01-31 16:01:00,False Positive
+CASE-0131,A-003,2026-01-31 11:42:00,Low,Closed,True Positive,2026-02-03 11:42:00,No Further Action
+CASE-0132,A-003,2026-03-22 23:36:00,Low,In Progress,Benign,,
+CASE-0133,A-003,2026-01-17 15:24:00,High,Closed,Needs Review,2026-01-20 07:24:00,Contained
+CASE-0134,A-003,2026-03-13 10:32:00,Medium,Closed,Needs Review,2026-03-16 08:32:00,No Further Action
+CASE-0135,A-003,2026-02-09 17:21:00,High,In Progress,True Positive,,
+CASE-0136,A-003,2026-01-11 00:36:00,Low,Closed,True Positive,2026-01-12 20:36:00,Contained
+CASE-0137,A-003,2026-03-09 06:26:00,Low,Closed,Benign,2026-03-10 07:26:00,Resolved
+CASE-0138,A-003,2026-01-05 21:57:00,Medium,Closed,True Positive,2026-01-08 07:57:00,Resolved
+CASE-0139,A-003,2026-02-15 01:08:00,Low,Closed,True Positive,2026-02-15 20:08:00,False Positive
+CASE-0140,A-003,2026-03-05 20:44:00,Medium,Closed,Needs Review,2026-03-07 08:44:00,Resolved
+CASE-0141,A-003,2026-03-10 14:04:00,Critical,Closed,Benign,2026-03-12 08:04:00,Contained
+CASE-0142,A-003,2026-03-02 10:15:00,Low,In Progress,False Positive,,
+CASE-0143,A-003,2026-03-22 12:13:00,Low,Open,True Positive,,
+CASE-0144,A-003,2026-02-19 02:24:00,Low,Closed,Needs Review,2026-02-20 07:24:00,No Further Action
+CASE-0145,A-003,2026-03-24 19:33:00,Low,Closed,Benign,2026-03-27 12:33:00,False Positive
+CASE-0146,A-003,2026-03-06 13:01:00,Critical,Closed,Needs Review,2026-03-06 19:01:00,No Further Action
+CASE-0147,A-003,2026-02-14 12:50:00,Medium,Closed,True Positive,2026-02-15 05:50:00,Resolved
+CASE-0148,A-003,2026-02-17 13:39:00,Low,Closed,Benign,2026-02-17 14:39:00,Contained
+CASE-0149,A-003,2026-03-11 18:37:00,High,In Progress,Needs Review,,
+CASE-0150,A-003,2026-01-25 17:52:00,Critical,Closed,Needs Review,2026-01-27 14:52:00,No Further Action
+CASE-0151,A-003,2026-01-25 04:02:00,High,Closed,Benign,2026-01-26 09:02:00,Resolved
+CASE-0152,A-003,2026-03-12 13:51:00,Medium,Closed,False Positive,2026-03-15 07:51:00,Resolved
+CASE-0153,A-003,2026-02-14 14:48:00,High,Closed,Needs Review,2026-02-17 05:48:00,No Further Action
+CASE-0154,A-003,2026-01-12 22:23:00,High,In Progress,True Positive,,
+CASE-0155,A-003,2026-01-13 11:06:00,Low,Closed,Benign,2026-01-14 22:06:00,Contained
+CASE-0156,A-003,2026-01-16 13:51:00,High,Closed,False Positive,2026-01-17 12:51:00,No Further Action
+CASE-0157,A-003,2026-02-26 07:12:00,High,Closed,False Positive,2026-02-27 04:12:00,No Further Action
+CASE-0158,A-003,2026-01-01 17:44:00,High,Open,True Positive,,
+CASE-0159,A-003,2026-01-31 00:24:00,Low,Closed,True Positive,2026-02-01 14:24:00,No Further Action
+CASE-0160,A-003,2026-03-14 23:48:00,Critical,Closed,True Positive,2026-03-15 06:48:00,Contained
+CASE-0161,A-003,2026-03-08 14:45:00,Low,Closed,Benign,2026-03-09 06:45:00,False Positive
+CASE-0162,A-003,2026-01-24 20:58:00,Low,Closed,True Positive,2026-01-26 04:58:00,Resolved
+CASE-0163,A-003,2026-02-15 11:01:00,Medium,Closed,True Positive,2026-02-16 11:01:00,Contained
+CASE-0164,A-003,2026-02-19 05:44:00,Low,Open,Benign,,
+CASE-0165,A-003,2026-02-14 04:27:00,Medium,In Progress,False Positive,,
+CASE-0166,A-003,2026-01-02 01:34:00,High,Closed,Needs Review,2026-01-04 01:34:00,False Positive
+CASE-0167,A-003,2026-01-10 23:11:00,High,Closed,False Positive,2026-01-11 09:11:00,Resolved
+CASE-0168,A-003,2026-01-12 01:16:00,High,Closed,Benign,2026-01-12 05:16:00,False Positive
+CASE-0169,A-003,2026-01-18 11:08:00,Medium,Closed,Benign,2026-01-21 05:08:00,Resolved
+CASE-0170,A-003,2026-01-31 19:31:00,Low,Closed,Benign,2026-02-02 20:31:00,False Positive
+CASE-0171,A-003,2026-03-13 18:48:00,Low,Closed,True Positive,2026-03-14 09:48:00,No Further Action
+CASE-0172,A-003,2026-01-07 09:26:00,High,Closed,Needs Review,2026-01-09 20:26:00,Contained
+CASE-0173,A-003,2026-03-27 11:53:00,Low,In Progress,Benign,,
+CASE-0174,A-003,2026-03-08 23:40:00,Low,Closed,Benign,2026-03-09 21:40:00,Contained
+CASE-0175,A-003,2026-01-07 07:18:00,Low,Closed,Benign,2026-01-08 08:18:00,False Positive
+CASE-0176,A-003,2026-02-12 05:29:00,Low,Closed,False Positive,2026-02-15 04:29:00,False Positive
+CASE-0177,A-003,2026-01-10 08:42:00,Low,Closed,False Positive,2026-01-13 04:42:00,Contained
+CASE-0178,A-003,2026-02-21 21:20:00,Low,Closed,False Positive,2026-02-23 09:20:00,Contained
+CASE-0179,A-003,2026-02-12 04:34:00,Low,Closed,False Positive,2026-02-14 09:34:00,False Positive
+CASE-0180,A-003,2026-01-31 00:56:00,Medium,Closed,False Positive,2026-02-01 19:56:00,False Positive
+CASE-0181,A-003,2026-03-25 14:23:00,Medium,Closed,Benign,2026-03-27 14:23:00,False Positive
+CASE-0182,A-003,2026-03-16 05:17:00,Critical,Open,False Positive,,
+CASE-0183,A-003,2026-01-28 17:55:00,Low,Closed,True Positive,2026-01-30 13:55:00,No Further Action
+CASE-0184,A-003,2026-02-01 22:18:00,Medium,Closed,Benign,2026-02-02 05:18:00,False Positive
+CASE-0185,A-003,2026-02-25 22:48:00,High,Closed,False Positive,2026-02-28 03:48:00,Resolved
+CASE-0186,A-003,2026-03-22 00:02:00,Low,Closed,Needs Review,2026-03-22 10:02:00,Resolved
+CASE-0187,A-003,2026-02-10 18:02:00,Critical,Closed,False Positive,2026-02-11 03:02:00,Resolved
+CASE-0188,A-003,2026-01-14 01:22:00,Critical,Closed,Benign,2026-01-16 23:22:00,Contained
+CASE-0189,A-003,2026-01-17 09:24:00,Low,In Progress,True Positive,,
+CASE-0190,A-003,2026-03-26 08:41:00,Low,Closed,Needs Review,2026-03-27 00:41:00,Resolved
+CASE-0191,A-003,2026-01-11 15:37:00,Low,Closed,True Positive,2026-01-12 09:37:00,No Further Action
+CASE-0192,A-003,2026-03-07 17:34:00,Medium,Open,False Positive,,
+CASE-0193,A-003,2026-03-30 17:15:00,High,Closed,True Positive,2026-03-31 18:15:00,No Further Action
+CASE-0194,A-003,2026-03-11 08:57:00,Low,Closed,Needs Review,2026-03-12 18:57:00,No Further Action
+CASE-0195,A-003,2026-02-10 00:50:00,Low,Closed,False Positive,2026-02-11 23:50:00,False Positive
+CASE-0196,A-003,2026-03-12 03:39:00,Medium,Closed,False Positive,2026-03-14 07:39:00,Resolved
+CASE-0197,A-003,2026-01-04 23:51:00,Medium,Closed,True Positive,2026-01-06 06:51:00,No Further Action
+CASE-0198,A-004,2026-05-12 04:12:00,Medium,Open,True Positive,,
+CASE-0199,A-004,2026-05-30 13:19:00,High,In Progress,Needs Review,,
+CASE-0200,A-004,2026-06-27 09:51:00,High,Open,False Positive,,
+CASE-0201,A-004,2026-05-23 18:06:00,High,Closed,True Positive,2026-05-26 16:06:00,False Positive
+CASE-0202,A-004,2026-06-07 23:07:00,Low,Closed,Needs Review,2026-06-09 20:07:00,False Positive
+CASE-0203,A-004,2026-04-28 21:08:00,Critical,Closed,Benign,2026-04-29 01:08:00,False Positive
+CASE-0204,A-004,2026-06-03 15:24:00,Medium,Closed,Benign,2026-06-04 10:24:00,False Positive
+CASE-0205,A-004,2026-05-30 00:19:00,Low,In Progress,False Positive,,
+CASE-0206,A-004,2026-06-18 12:45:00,Critical,Open,Benign,,
+CASE-0207,A-004,2026-06-05 20:51:00,High,Open,Benign,,
+CASE-0208,A-004,2026-06-12 10:43:00,Critical,In Progress,True Positive,,
+CASE-0209,A-004,2026-05-31 01:13:00,Critical,Closed,Benign,2026-05-31 18:13:00,Contained
+CASE-0210,A-004,2026-04-29 06:26:00,Critical,Closed,Needs Review,2026-04-30 05:26:00,No Further Action
+CASE-0211,A-004,2026-06-22 00:52:00,Low,In Progress,True Positive,,
+CASE-0212,A-004,2026-06-28 14:26:00,Low,Closed,False Positive,2026-06-30 04:26:00,Contained
+CASE-0213,A-004,2026-04-06 02:38:00,Medium,Closed,Benign,2026-04-06 15:38:00,Resolved
+CASE-0214,A-004,2026-05-30 18:10:00,High,Closed,Needs Review,2026-06-02 03:10:00,False Positive
+CASE-0215,A-004,2026-06-07 16:19:00,High,Closed,Benign,2026-06-10 05:19:00,False Positive
+CASE-0216,A-004,2026-05-15 03:44:00,Low,Closed,False Positive,2026-05-18 00:44:00,No Further Action
+CASE-0217,A-004,2026-06-15 10:28:00,Low,In Progress,Benign,,
+CASE-0218,A-004,2026-05-27 23:27:00,Low,Closed,False Positive,2026-05-30 10:27:00,No Further Action
+CASE-0219,A-004,2026-06-10 00:09:00,Medium,Closed,True Positive,2026-06-11 13:09:00,False Positive
+CASE-0220,A-004,2026-06-19 14:46:00,Medium,Closed,True Positive,2026-06-22 07:46:00,No Further Action
+CASE-0221,A-004,2026-05-02 15:09:00,Low,Closed,True Positive,2026-05-03 03:09:00,Resolved
+CASE-0222,A-004,2026-06-06 00:59:00,Low,Open,False Positive,,
+CASE-0223,A-004,2026-05-03 07:54:00,Medium,In Progress,Needs Review,,
+CASE-0224,A-004,2026-06-23 22:48:00,High,Closed,Needs Review,2026-06-25 01:48:00,Resolved
+CASE-0225,A-004,2026-04-27 15:17:00,High,Closed,True Positive,2026-04-28 00:17:00,Resolved
+CASE-0226,A-004,2026-05-10 12:01:00,Medium,Closed,True Positive,2026-05-12 14:01:00,No Further Action
+CASE-0227,A-004,2026-04-10 20:44:00,Medium,In Progress,False Positive,,
+CASE-0228,A-004,2026-04-28 19:20:00,Medium,Closed,Needs Review,2026-05-01 05:20:00,False Positive
+CASE-0229,A-004,2026-04-07 22:21:00,Low,Closed,Benign,2026-04-10 14:21:00,False Positive
+CASE-0230,A-004,2026-05-05 07:32:00,Medium,Closed,False Positive,2026-05-07 11:32:00,Resolved
+CASE-0231,A-004,2026-04-08 11:06:00,Low,Closed,Needs Review,2026-04-10 11:06:00,False Positive
+CASE-0232,A-004,2026-06-03 14:53:00,Low,Closed,Needs Review,2026-06-05 17:53:00,Resolved
+CASE-0233,A-004,2026-05-31 07:08:00,Low,Open,Needs Review,,
+CASE-0234,A-004,2026-04-10 07:17:00,Low,Closed,Needs Review,2026-04-12 13:17:00,No Further Action
+CASE-0235,A-004,2026-05-18 06:03:00,Low,Closed,True Positive,2026-05-20 18:03:00,No Further Action
+CASE-0236,A-004,2026-05-16 18:54:00,Low,Open,Needs Review,,
+CASE-0237,A-004,2026-05-19 01:50:00,Medium,Closed,False Positive,2026-05-20 16:50:00,No Further Action
+CASE-0238,A-004,2026-06-19 05:36:00,Medium,Open,Benign,,
+CASE-0239,A-004,2026-04-18 09:00:00,Low,Closed,Needs Review,2026-04-18 21:00:00,False Positive
+CASE-0240,A-004,2026-04-07 18:20:00,Medium,Closed,Benign,2026-04-07 23:20:00,Contained
+CASE-0241,A-004,2026-05-30 02:29:00,Low,Open,Needs Review,,
+CASE-0242,A-004,2026-05-14 02:51:00,Low,In Progress,True Positive,,
+CASE-0243,A-004,2026-06-14 00:33:00,Medium,Open,Needs Review,,
+CASE-0244,A-004,2026-05-07 14:21:00,Medium,Closed,False Positive,2026-05-08 02:21:00,Resolved
+CASE-0245,A-004,2026-04-08 03:01:00,Low,Closed,True Positive,2026-04-08 05:01:00,Resolved
+CASE-0246,A-004,2026-04-13 11:27:00,Low,Closed,Benign,2026-04-16 06:27:00,False Positive
+CASE-0247,A-004,2026-05-29 06:51:00,Critical,Open,Needs Review,,
+CASE-0248,A-004,2026-05-27 12:11:00,Low,Closed,Needs Review,2026-05-29 03:11:00,Contained
+CASE-0249,A-004,2026-04-04 01:46:00,Medium,Closed,Needs Review,2026-04-05 08:46:00,No Further Action
+CASE-0250,A-004,2026-04-08 03:49:00,Critical,Closed,Needs Review,2026-04-10 04:49:00,Contained
+CASE-0251,A-004,2026-06-07 06:15:00,Critical,Closed,False Positive,2026-06-08 02:15:00,No Further Action
+CASE-0252,A-004,2026-06-09 11:39:00,Low,In Progress,Benign,,
+CASE-0253,A-004,2026-05-21 17:03:00,Low,Closed,Benign,2026-05-23 21:03:00,Contained
+CASE-0254,A-004,2026-05-13 20:24:00,Low,Closed,False Positive,2026-05-15 00:24:00,False Positive
+CASE-0255,A-004,2026-04-21 07:18:00,High,Closed,True Positive,2026-04-23 10:18:00,False Positive
+CASE-0256,A-004,2026-06-24 02:15:00,Low,Closed,False Positive,2026-06-24 13:15:00,Contained
+CASE-0257,A-004,2026-06-22 14:41:00,Low,Open,False Positive,,
+CASE-0258,A-004,2026-05-29 19:16:00,Low,Closed,False Positive,2026-06-01 06:16:00,No Further Action
+CASE-0259,A-004,2026-05-28 16:32:00,High,Open,False Positive,,
+CASE-0260,A-004,2026-05-25 12:00:00,High,Closed,Benign,2026-05-27 19:00:00,False Positive
+CASE-0261,A-004,2026-06-20 22:52:00,Medium,Closed,Needs Review,2026-06-23 00:52:00,No Further Action
+CASE-0262,A-004,2026-05-16 14:35:00,Low,In Progress,True Positive,,
+CASE-0263,A-004,2026-06-05 23:06:00,Critical,Closed,True Positive,2026-06-08 05:06:00,No Further Action
+CASE-0264,A-004,2026-06-23 05:22:00,High,Closed,True Positive,2026-06-26 02:22:00,False Positive
+CASE-0265,A-004,2026-05-14 08:06:00,Low,Closed,Needs Review,2026-05-15 22:06:00,False Positive
+CASE-0266,A-004,2026-05-17 12:40:00,Low,Closed,False Positive,2026-05-17 22:40:00,No Further Action
+CASE-0267,A-004,2026-04-04 00:18:00,Low,In Progress,Benign,,
+CASE-0268,A-004,2026-05-28 13:13:00,High,Closed,Needs Review,2026-05-29 02:13:00,No Further Action
+CASE-0269,A-004,2026-05-26 05:05:00,Medium,Closed,Benign,2026-05-29 04:05:00,False Positive
+CASE-0270,A-005,2026-03-12 16:38:00,High,Closed,Needs Review,2026-03-13 00:38:00,Resolved
+CASE-0271,A-005,2026-01-30 22:00:00,Low,Closed,True Positive,2026-02-01 06:00:00,No Further Action
+CASE-0272,A-005,2026-01-30 02:34:00,High,Closed,Benign,2026-01-31 17:34:00,False Positive
+CASE-0273,A-005,2026-03-04 04:18:00,Medium,Closed,False Positive,2026-03-07 02:18:00,Contained
+CASE-0274,A-005,2026-01-27 06:21:00,Low,Closed,Benign,2026-01-29 10:21:00,No Further Action
+CASE-0275,A-005,2026-02-10 13:59:00,Low,Open,True Positive,,
+CASE-0276,A-005,2026-02-09 11:05:00,Low,Closed,False Positive,2026-02-09 23:05:00,Resolved
+CASE-0277,A-005,2026-01-06 06:57:00,Medium,Closed,True Positive,2026-01-06 08:57:00,Resolved
+CASE-0278,A-005,2026-03-07 03:55:00,Low,Closed,Needs Review,2026-03-09 12:55:00,Contained
+CASE-0279,A-005,2026-01-21 04:23:00,High,Closed,True Positive,2026-01-24 00:23:00,Resolved
+CASE-0280,A-005,2026-03-22 20:57:00,Low,Closed,False Positive,2026-03-25 01:57:00,Contained
+CASE-0281,A-005,2026-03-29 14:21:00,Low,Closed,True Positive,2026-04-01 05:21:00,Contained
+CASE-0282,A-005,2026-02-14 12:44:00,Low,Open,Needs Review,,
+CASE-0283,A-005,2026-03-20 19:09:00,Low,Closed,Needs Review,2026-03-23 00:09:00,No Further Action
+CASE-0284,A-005,2026-02-27 05:12:00,Low,Closed,Needs Review,2026-02-28 15:12:00,False Positive
+CASE-0285,A-005,2026-01-16 06:27:00,Low,Closed,False Positive,2026-01-18 00:27:00,Contained
+CASE-0286,A-005,2026-03-06 15:00:00,Critical,Closed,Needs Review,2026-03-07 13:00:00,Resolved
+CASE-0287,A-005,2026-03-31 16:11:00,Medium,Closed,True Positive,2026-03-31 17:11:00,No Further Action
+CASE-0288,A-005,2026-02-13 12:35:00,Low,Closed,Benign,2026-02-16 12:35:00,False Positive
+CASE-0289,A-005,2026-01-05 20:56:00,Medium,Closed,True Positive,2026-01-07 15:56:00,Contained
+CASE-0290,A-005,2026-01-21 11:43:00,High,Open,False Positive,,
+CASE-0291,A-005,2026-03-23 22:57:00,Medium,Closed,Needs Review,2026-03-25 18:57:00,No Further Action
+CASE-0292,A-005,2026-01-26 08:05:00,Low,Closed,Needs Review,2026-01-27 20:05:00,No Further Action
+CASE-0293,A-005,2026-01-31 06:20:00,Critical,Closed,Benign,2026-02-02 00:20:00,False Positive
+CASE-0294,A-005,2026-02-07 06:42:00,Low,In Progress,True Positive,,
+CASE-0295,A-005,2026-01-23 19:36:00,High,Open,Benign,,
+CASE-0296,A-005,2026-01-28 18:40:00,Medium,Closed,Needs Review,2026-01-29 21:40:00,False Positive
+CASE-0297,A-005,2026-01-18 11:18:00,Low,Closed,False Positive,2026-01-19 16:18:00,False Positive
+CASE-0298,A-005,2026-01-31 00:05:00,High,In Progress,Needs Review,,
+CASE-0299,A-005,2026-01-26 12:08:00,Medium,Open,False Positive,,
+CASE-0300,A-005,2026-01-18 04:25:00,Low,Closed,Benign,2026-01-18 11:25:00,No Further Action
+CASE-0301,A-005,2026-03-14 23:26:00,Critical,Closed,False Positive,2026-03-15 10:26:00,No Further Action
+CASE-0302,A-005,2026-01-03 11:19:00,Low,In Progress,Needs Review,,
+CASE-0303,A-005,2026-01-04 17:36:00,Medium,Closed,False Positive,2026-01-05 11:36:00,False Positive
+CASE-0304,A-005,2026-01-28 21:38:00,Medium,Closed,True Positive,2026-01-30 13:38:00,False Positive
+CASE-0305,A-005,2026-01-02 23:04:00,Medium,Closed,True Positive,2026-01-05 21:04:00,False Positive
+CASE-0306,A-005,2026-02-04 17:36:00,Medium,Closed,Needs Review,2026-02-07 12:36:00,False Positive
+CASE-0307,A-005,2026-02-21 13:27:00,High,Closed,Benign,2026-02-22 22:27:00,Resolved
+CASE-0308,A-005,2026-01-28 18:18:00,Low,Closed,True Positive,2026-01-29 09:18:00,Contained
+CASE-0309,A-005,2026-02-25 01:52:00,Low,In Progress,Benign,,
+CASE-0310,A-005,2026-03-24 05:38:00,Medium,In Progress,Benign,,
+CASE-0311,A-005,2026-03-29 12:21:00,Low,In Progress,Benign,,
+CASE-0312,A-005,2026-01-19 19:23:00,High,Closed,True Positive,2026-01-21 13:23:00,Resolved
+CASE-0313,A-005,2026-03-12 13:33:00,Low,Closed,Benign,2026-03-13 04:33:00,No Further Action
+CASE-0314,A-005,2026-01-24 19:51:00,Medium,Closed,False Positive,2026-01-27 17:51:00,False Positive
+CASE-0315,A-005,2026-02-06 12:03:00,High,In Progress,False Positive,,
+CASE-0316,A-005,2026-01-11 01:23:00,Critical,Closed,Benign,2026-01-12 13:23:00,Resolved
+CASE-0317,A-005,2026-01-02 01:55:00,High,Closed,Needs Review,2026-01-02 02:55:00,Resolved
+CASE-0318,A-005,2026-01-25 18:17:00,Low,In Progress,Benign,,
+CASE-0319,A-005,2026-03-30 21:13:00,Medium,Closed,False Positive,2026-04-01 21:13:00,Resolved
+CASE-0320,A-005,2026-03-08 22:52:00,Low,Closed,True Positive,2026-03-10 05:52:00,Contained
+CASE-0321,A-005,2026-02-26 18:35:00,High,Open,True Positive,,
+CASE-0322,A-005,2026-03-26 16:22:00,Medium,Closed,True Positive,2026-03-28 04:22:00,Resolved
+CASE-0323,A-005,2026-01-01 04:56:00,Medium,Closed,False Positive,2026-01-03 16:56:00,Resolved
+CASE-0324,A-005,2026-02-28 06:30:00,High,Closed,False Positive,2026-03-02 21:30:00,Contained
+CASE-0325,A-005,2026-03-31 18:59:00,Medium,Open,False Positive,,
+CASE-0326,A-005,2026-02-26 03:58:00,Low,Closed,False Positive,2026-02-28 12:58:00,Contained
+CASE-0327,A-005,2026-03-30 02:05:00,Medium,Closed,Needs Review,2026-04-01 04:05:00,No Further Action
+CASE-0328,A-005,2026-01-02 09:38:00,Low,In Progress,Benign,,
+CASE-0329,A-005,2026-01-29 13:30:00,Low,Closed,Benign,2026-01-30 02:30:00,False Positive
+CASE-0330,A-005,2026-03-13 21:53:00,Low,Closed,Benign,2026-03-14 17:53:00,Contained
+CASE-0331,A-005,2026-01-02 22:29:00,Medium,Closed,Needs Review,2026-01-03 20:29:00,Contained
+CASE-0332,A-005,2026-03-01 16:22:00,High,Open,True Positive,,
+CASE-0333,A-005,2026-03-07 15:45:00,Low,Closed,True Positive,2026-03-09 23:45:00,Resolved
+CASE-0334,A-005,2026-02-21 04:26:00,Low,In Progress,False Positive,,
+CASE-0335,A-005,2026-02-19 17:28:00,Low,Closed,Benign,2026-02-21 06:28:00,False Positive
+CASE-0336,A-005,2026-03-10 02:48:00,Critical,In Progress,Needs Review,,
+CASE-0337,A-005,2026-02-11 10:31:00,Medium,Closed,Needs Review,2026-02-13 01:31:00,Resolved
+CASE-0338,A-005,2026-01-11 15:58:00,Low,Open,False Positive,,
+CASE-0339,A-005,2026-02-11 00:58:00,Low,Closed,Needs Review,2026-02-13 20:58:00,Contained
+CASE-0340,A-005,2026-03-26 22:23:00,Low,Closed,False Positive,2026-03-27 02:23:00,No Further Action
+CASE-0341,A-005,2026-03-27 05:54:00,Medium,Closed,False Positive,2026-03-29 00:54:00,Resolved
+CASE-0342,A-005,2026-03-15 06:41:00,Low,Closed,True Positive,2026-03-15 07:41:00,Resolved
+CASE-0343,A-005,2026-01-09 06:43:00,Critical,In Progress,Benign,,
+CASE-0344,A-005,2026-01-27 00:04:00,Low,Closed,False Positive,2026-01-29 03:04:00,No Further Action
+CASE-0345,A-006,2026-01-21 15:21:00,Medium,Closed,Needs Review,2026-01-23 19:21:00,Contained
+CASE-0346,A-006,2026-01-21 22:47:00,Medium,Open,True Positive,,
+CASE-0347,A-006,2026-01-25 05:28:00,High,Closed,False Positive,2026-01-25 06:28:00,False Positive
+CASE-0348,A-006,2026-02-10 07:05:00,High,Open,Benign,,
+CASE-0349,A-006,2026-02-04 09:27:00,Critical,Closed,True Positive,2026-02-04 13:27:00,Resolved
+CASE-0350,A-006,2026-01-25 05:28:00,High,Closed,True Positive,2026-01-26 01:28:00,No Further Action
+CASE-0351,A-006,2026-02-13 01:18:00,Medium,In Progress,True Positive,,
+CASE-0352,A-006,2026-02-23 15:25:00,Medium,Closed,True Positive,2026-02-25 04:25:00,No Further Action
+CASE-0353,A-006,2026-02-23 11:37:00,Medium,Open,False Positive,,
+CASE-0354,A-006,2026-03-16 22:06:00,Medium,Open,Needs Review,,
+CASE-0355,A-006,2026-03-23 19:42:00,Medium,Closed,True Positive,2026-03-25 12:42:00,False Positive
+CASE-0356,A-006,2026-01-08 05:00:00,Medium,Closed,True Positive,2026-01-10 02:00:00,No Further Action
+CASE-0357,A-006,2026-02-03 23:49:00,Low,Closed,Needs Review,2026-02-05 08:49:00,Contained
+CASE-0358,A-006,2026-01-03 12:40:00,Medium,Closed,Needs Review,2026-01-03 22:40:00,No Further Action
+CASE-0359,A-006,2026-01-16 13:06:00,Medium,Closed,Benign,2026-01-17 21:06:00,False Positive
+CASE-0360,A-006,2026-03-19 07:46:00,Medium,Closed,False Positive,2026-03-20 06:46:00,Resolved
+CASE-0361,A-006,2026-02-07 13:20:00,Low,Closed,False Positive,2026-02-08 12:20:00,No Further Action
+CASE-0362,A-006,2026-02-28 16:19:00,Medium,Closed,True Positive,2026-03-02 05:19:00,False Positive
+CASE-0363,A-006,2026-02-20 19:26:00,Medium,Closed,Needs Review,2026-02-21 12:26:00,No Further Action
+CASE-0364,A-006,2026-03-14 04:21:00,Low,Closed,True Positive,2026-03-15 02:21:00,No Further Action
+CASE-0365,A-006,2026-03-09 01:11:00,Low,Closed,True Positive,2026-03-10 19:11:00,No Further Action
+CASE-0366,A-006,2026-03-03 18:01:00,Medium,In Progress,Benign,,
+CASE-0367,A-006,2026-02-24 18:31:00,Medium,Closed,Needs Review,2026-02-27 16:31:00,Contained
+CASE-0368,A-006,2026-01-23 21:49:00,Medium,Closed,Benign,2026-01-24 08:49:00,No Further Action
+CASE-0369,A-006,2026-03-13 11:08:00,Medium,Closed,Needs Review,2026-03-14 17:08:00,Resolved
+CASE-0370,A-006,2026-01-13 23:00:00,Medium,Closed,Needs Review,2026-01-16 19:00:00,No Further Action
+CASE-0371,A-006,2026-01-08 18:49:00,Low,Closed,False Positive,2026-01-10 15:49:00,False Positive
+CASE-0372,A-006,2026-02-14 20:18:00,Critical,Closed,False Positive,2026-02-15 03:18:00,Contained
+CASE-0373,A-006,2026-02-02 11:11:00,Low,Closed,Needs Review,2026-02-03 02:11:00,False Positive
+CASE-0374,A-006,2026-03-24 16:11:00,Low,Closed,Needs Review,2026-03-25 08:11:00,Contained
+CASE-0375,A-006,2026-02-27 01:06:00,Low,Closed,Benign,2026-02-27 15:06:00,Contained
+CASE-0376,A-006,2026-01-02 21:24:00,Critical,Closed,Benign,2026-01-04 01:24:00,False Positive
+CASE-0377,A-006,2026-03-08 01:29:00,Low,Closed,Benign,2026-03-08 22:29:00,False Positive
+CASE-0378,A-006,2026-03-26 13:38:00,Critical,Closed,Benign,2026-03-27 09:38:00,Resolved
+CASE-0379,A-006,2026-03-16 18:13:00,Medium,Closed,Benign,2026-03-17 06:13:00,No Further Action
+CASE-0380,A-006,2026-01-26 18:58:00,Critical,Closed,Benign,2026-01-27 03:58:00,Resolved
+CASE-0381,A-006,2026-01-28 21:03:00,Low,Closed,Needs Review,2026-01-29 14:03:00,No Further Action
+CASE-0382,A-006,2026-03-28 12:24:00,High,In Progress,Needs Review,,
+CASE-0383,A-006,2026-03-09 05:39:00,Low,In Progress,Needs Review,,
+CASE-0384,A-006,2026-01-09 11:44:00,Low,Closed,False Positive,2026-01-11 12:44:00,Contained
+CASE-0385,A-006,2026-03-01 08:01:00,Medium,Closed,Benign,2026-03-01 19:01:00,No Further Action
+CASE-0386,A-006,2026-01-10 22:05:00,Medium,Closed,Needs Review,2026-01-13 10:05:00,Contained
+CASE-0387,A-006,2026-01-23 17:54:00,High,Closed,Benign,2026-01-25 01:54:00,False Positive
+CASE-0388,A-006,2026-01-08 02:49:00,Medium,Closed,Needs Review,2026-01-09 02:49:00,Resolved
+CASE-0389,A-006,2026-02-23 16:31:00,Medium,Closed,False Positive,2026-02-24 04:31:00,No Further Action
+CASE-0390,A-006,2026-03-04 00:24:00,Medium,In Progress,Needs Review,,
+CASE-0391,A-006,2026-03-11 15:42:00,Low,In Progress,False Positive,,
+CASE-0392,A-006,2026-03-07 16:46:00,Low,Open,Benign,,
+CASE-0393,A-006,2026-02-21 15:47:00,Medium,Open,Needs Review,,
+CASE-0394,A-006,2026-03-20 18:52:00,Medium,Closed,False Positive,2026-03-22 18:52:00,False Positive
+CASE-0395,A-006,2026-01-22 14:22:00,Medium,Closed,False Positive,2026-01-24 18:22:00,Contained
+CASE-0396,A-006,2026-02-19 07:48:00,Medium,Closed,True Positive,2026-02-20 22:48:00,False Positive
+CASE-0397,A-006,2026-01-05 12:35:00,Medium,Closed,Needs Review,2026-01-06 08:35:00,Resolved
+CASE-0398,A-006,2026-02-02 20:36:00,High,Open,Needs Review,,
+CASE-0399,A-006,2026-03-24 10:22:00,Low,Closed,True Positive,2026-03-25 00:22:00,Contained
+CASE-0400,A-006,2026-01-26 06:56:00,Low,Closed,Benign,2026-01-28 08:56:00,Resolved
+CASE-0401,A-006,2026-01-14 09:55:00,High,Open,True Positive,,
+CASE-0402,A-006,2026-03-28 12:05:00,Medium,Closed,Benign,2026-03-29 08:05:00,False Positive
+CASE-0403,A-006,2026-03-03 22:23:00,High,Closed,False Positive,2026-03-04 17:23:00,Resolved
+CASE-0404,A-006,2026-02-11 13:27:00,High,Open,True Positive,,
+CASE-0405,A-006,2026-01-13 09:46:00,Low,In Progress,Benign,,
+CASE-0406,A-006,2026-01-17 12:12:00,Critical,Closed,Needs Review,2026-01-19 16:12:00,Resolved
+CASE-0407,A-006,2026-02-16 10:00:00,Low,Closed,Benign,2026-02-17 02:00:00,False Positive
+CASE-0408,A-006,2026-02-22 16:43:00,Low,In Progress,Needs Review,,
+CASE-0409,A-006,2026-01-24 10:52:00,Medium,Closed,True Positive,2026-01-27 09:52:00,No Further Action
+CASE-0410,A-006,2026-03-21 08:01:00,Medium,Closed,Needs Review,2026-03-21 16:01:00,Contained
+CASE-0411,A-006,2026-02-10 05:25:00,Low,Closed,False Positive,2026-02-12 00:25:00,Resolved
+CASE-0412,A-006,2026-01-19 00:46:00,Critical,Closed,Benign,2026-01-20 17:46:00,No Further Action
+CASE-0413,A-006,2026-01-04 12:46:00,High,Closed,Needs Review,2026-01-07 10:46:00,No Further Action
+CASE-0414,A-006,2026-03-23 08:40:00,Low,Closed,True Positive,2026-03-25 06:40:00,False Positive
+CASE-0415,A-006,2026-01-29 17:30:00,Medium,Closed,True Positive,2026-01-31 09:30:00,Contained
+CASE-0416,A-006,2026-01-26 18:13:00,High,Closed,False Positive,2026-01-27 13:13:00,Resolved
+CASE-0417,A-006,2026-01-23 10:52:00,High,Closed,False Positive,2026-01-25 10:52:00,Resolved
+CASE-0418,A-006,2026-02-24 22:21:00,Medium,Closed,Needs Review,2026-02-27 07:21:00,Resolved
+CASE-0419,A-006,2026-02-02 14:05:00,Medium,Open,False Positive,,
+CASE-0420,A-006,2026-01-10 07:05:00,Low,Open,True Positive,,
+CASE-0421,A-006,2026-01-27 00:27:00,Medium,Closed,Needs Review,2026-01-27 01:27:00,Resolved
+CASE-0422,A-006,2026-03-12 13:16:00,Critical,Closed,True Positive,2026-03-14 02:16:00,Resolved
+CASE-0423,A-006,2026-01-15 22:31:00,Critical,Closed,Benign,2026-01-16 15:31:00,No Further Action
+CASE-0424,A-007,2026-03-16 08:58:00,Medium,Closed,False Positive,2026-03-17 04:58:00,No Further Action
+CASE-0425,A-007,2026-02-12 01:26:00,Critical,Closed,True Positive,2026-02-12 14:26:00,No Further Action
+CASE-0426,A-007,2026-02-14 09:45:00,Medium,Closed,Benign,2026-02-15 22:45:00,False Positive
+CASE-0427,A-007,2026-03-14 01:37:00,Low,Closed,Needs Review,2026-03-16 00:37:00,No Further Action
+CASE-0428,A-007,2026-01-27 05:38:00,Low,Closed,Needs Review,2026-01-27 15:38:00,Contained
+CASE-0429,A-007,2026-02-17 15:39:00,Low,Closed,Needs Review,2026-02-17 18:39:00,False Positive
+CASE-0430,A-007,2026-02-14 12:24:00,Medium,Closed,Benign,2026-02-15 15:24:00,No Further Action
+CASE-0431,A-007,2026-01-30 06:09:00,High,Closed,Needs Review,2026-02-01 22:09:00,Resolved
+CASE-0432,A-007,2026-01-15 05:51:00,Medium,Closed,False Positive,2026-01-16 12:51:00,False Positive
+CASE-0433,A-007,2026-02-23 03:40:00,Low,In Progress,False Positive,,
+CASE-0434,A-007,2026-02-21 18:05:00,Low,Closed,Needs Review,2026-02-23 22:05:00,No Further Action
+CASE-0435,A-007,2026-02-13 23:17:00,Medium,Closed,Benign,2026-02-14 14:17:00,No Further Action
+CASE-0436,A-007,2026-03-01 01:15:00,Low,In Progress,False Positive,,
+CASE-0437,A-007,2026-01-17 06:32:00,Low,Open,Needs Review,,
+CASE-0438,A-007,2026-02-28 04:40:00,High,Closed,Needs Review,2026-03-03 00:40:00,No Further Action
+CASE-0439,A-007,2026-03-01 10:16:00,Medium,Closed,False Positive,2026-03-02 23:16:00,Contained
+CASE-0440,A-007,2026-03-29 04:55:00,Medium,Closed,Needs Review,2026-03-29 23:55:00,Resolved
+CASE-0441,A-007,2026-01-23 16:09:00,High,Closed,Needs Review,2026-01-26 03:09:00,False Positive
+CASE-0442,A-007,2026-03-25 21:57:00,Low,Closed,Needs Review,2026-03-28 04:57:00,False Positive
+CASE-0443,A-007,2026-02-05 04:35:00,Medium,Closed,Needs Review,2026-02-06 22:35:00,No Further Action
+CASE-0444,A-007,2026-03-14 02:03:00,Low,Closed,False Positive,2026-03-14 16:03:00,False Positive
+CASE-0445,A-007,2026-01-25 04:14:00,Medium,Closed,True Positive,2026-01-25 17:14:00,No Further Action
+CASE-0446,A-007,2026-03-25 22:25:00,Low,Closed,Needs Review,2026-03-27 10:25:00,Resolved
+CASE-0447,A-007,2026-03-01 08:30:00,Medium,Closed,Benign,2026-03-02 01:30:00,No Further Action
+CASE-0448,A-007,2026-02-20 17:50:00,Critical,Closed,Benign,2026-02-22 00:50:00,False Positive
+CASE-0449,A-007,2026-01-27 17:54:00,Low,Closed,Benign,2026-01-30 10:54:00,False Positive
+CASE-0450,A-007,2026-01-15 17:59:00,High,Closed,False Positive,2026-01-17 09:59:00,Resolved
+CASE-0451,A-007,2026-03-25 23:38:00,Medium,Closed,True Positive,2026-03-27 08:38:00,Resolved
+CASE-0452,A-007,2026-02-25 13:23:00,High,Closed,Needs Review,2026-02-26 01:23:00,Contained
+CASE-0453,A-007,2026-02-06 21:37:00,High,Closed,Needs Review,2026-02-07 11:37:00,Resolved
+CASE-0454,A-007,2026-03-22 01:31:00,Medium,Open,True Positive,,
+CASE-0455,A-007,2026-01-07 14:45:00,Medium,Closed,True Positive,2026-01-09 08:45:00,False Positive
+CASE-0456,A-007,2026-03-09 14:46:00,Low,Closed,Benign,2026-03-11 17:46:00,Contained
+CASE-0457,A-007,2026-02-08 07:38:00,Low,Closed,Needs Review,2026-02-09 15:38:00,No Further Action
+CASE-0458,A-007,2026-02-07 00:08:00,High,Closed,False Positive,2026-02-08 14:08:00,Resolved
+CASE-0459,A-007,2026-01-19 16:57:00,Medium,Open,False Positive,,
+CASE-0460,A-007,2026-02-21 08:09:00,Low,Closed,Benign,2026-02-23 23:09:00,No Further Action
+CASE-0461,A-007,2026-02-10 04:27:00,Medium,Closed,False Positive,2026-02-10 06:27:00,Contained
+CASE-0462,A-007,2026-01-13 15:06:00,High,Closed,Benign,2026-01-15 11:06:00,No Further Action
+CASE-0463,A-007,2026-01-27 02:02:00,Low,In Progress,True Positive,,
+CASE-0464,A-007,2026-02-24 03:23:00,Medium,Open,Benign,,
+CASE-0465,A-007,2026-01-05 05:02:00,Medium,Closed,True Positive,2026-01-06 20:02:00,Resolved
+CASE-0466,A-007,2026-02-17 00:33:00,High,Closed,Needs Review,2026-02-17 07:33:00,No Further Action
+CASE-0467,A-007,2026-02-20 06:01:00,Low,Closed,Benign,2026-02-22 23:01:00,No Further Action
+CASE-0468,A-007,2026-03-22 02:45:00,Medium,Closed,True Positive,2026-03-24 07:45:00,False Positive
+CASE-0469,A-007,2026-03-23 09:36:00,Medium,Closed,True Positive,2026-03-23 21:36:00,False Positive
+CASE-0470,A-007,2026-01-11 03:25:00,Low,Closed,Benign,2026-01-13 04:25:00,Contained
+CASE-0471,A-007,2026-03-24 09:40:00,Medium,In Progress,True Positive,,
+CASE-0472,A-007,2026-02-12 23:59:00,Critical,Closed,Needs Review,2026-02-15 14:59:00,False Positive
+CASE-0473,A-007,2026-03-11 16:45:00,High,Closed,False Positive,2026-03-12 11:45:00,No Further Action
+CASE-0474,A-007,2026-01-10 05:51:00,Low,Closed,True Positive,2026-01-12 06:51:00,No Further Action
+CASE-0475,A-007,2026-01-27 04:50:00,High,Closed,True Positive,2026-01-29 20:50:00,Contained
+CASE-0476,A-007,2026-01-04 12:42:00,Medium,Closed,Needs Review,2026-01-06 19:42:00,Contained
+CASE-0477,A-007,2026-01-04 21:14:00,Low,Closed,True Positive,2026-01-07 04:14:00,False Positive
+CASE-0478,A-007,2026-01-31 11:21:00,Critical,Closed,Needs Review,2026-02-03 01:21:00,Resolved
+CASE-0479,A-007,2026-02-05 15:05:00,Medium,Closed,True Positive,2026-02-06 14:05:00,Contained
+CASE-0480,A-007,2026-01-28 09:10:00,Critical,Closed,False Positive,2026-01-28 15:10:00,Resolved
+CASE-0481,A-007,2026-03-24 18:53:00,High,In Progress,False Positive,,
+CASE-0482,A-007,2026-01-01 07:39:00,High,Closed,True Positive,2026-01-02 04:39:00,Resolved
+CASE-0483,A-007,2026-03-26 14:18:00,High,Open,Benign,,
+CASE-0484,A-007,2026-01-26 15:53:00,Low,Closed,Benign,2026-01-26 18:53:00,Contained
+CASE-0485,A-007,2026-03-20 22:33:00,Low,Closed,False Positive,2026-03-22 12:33:00,Contained
+CASE-0486,A-008,2026-03-08 21:08:00,Critical,Closed,False Positive,2026-03-11 21:08:00,Resolved
+CASE-0487,A-008,2026-02-04 02:17:00,Low,Closed,Needs Review,2026-02-06 00:17:00,False Positive
+CASE-0488,A-008,2026-02-04 01:56:00,Low,Closed,Benign,2026-02-05 10:56:00,Resolved
+CASE-0489,A-008,2026-01-06 22:33:00,Medium,Open,True Positive,,
+CASE-0490,A-008,2026-01-18 05:29:00,Medium,Closed,Needs Review,2026-01-18 20:29:00,False Positive
+CASE-0491,A-008,2026-03-04 21:37:00,Low,Closed,False Positive,2026-03-05 04:37:00,Resolved
+CASE-0492,A-008,2026-01-27 17:25:00,Low,Closed,False Positive,2026-01-28 02:25:00,Resolved
+CASE-0493,A-008,2026-01-31 03:29:00,Low,Closed,Benign,2026-02-02 12:29:00,Contained
+CASE-0494,A-008,2026-03-22 17:58:00,Medium,Closed,True Positive,2026-03-25 15:58:00,Resolved
+CASE-0495,A-008,2026-01-10 18:23:00,Low,Closed,False Positive,2026-01-12 16:23:00,Contained
+CASE-0496,A-008,2026-01-27 03:32:00,Low,Closed,False Positive,2026-01-28 03:32:00,False Positive
+CASE-0497,A-008,2026-01-30 12:29:00,Low,Closed,False Positive,2026-02-01 01:29:00,Contained
+CASE-0498,A-008,2026-02-22 04:37:00,High,Closed,Benign,2026-02-24 17:37:00,False Positive
+CASE-0499,A-008,2026-03-11 05:24:00,Critical,Closed,Benign,2026-03-11 18:24:00,False Positive
+CASE-0500,A-008,2026-01-03 06:24:00,High,Closed,False Positive,2026-01-04 15:24:00,Resolved
+CASE-0501,A-008,2026-02-14 00:13:00,Low,In Progress,False Positive,,
+CASE-0502,A-008,2026-02-22 22:24:00,Critical,Closed,Benign,2026-02-25 03:24:00,No Further Action
+CASE-0503,A-008,2026-02-08 11:15:00,Low,Closed,Benign,2026-02-09 16:15:00,Resolved
+CASE-0504,A-008,2026-01-13 00:42:00,Medium,Closed,Needs Review,2026-01-13 23:42:00,Contained
+CASE-0505,A-008,2026-02-28 13:40:00,Medium,Closed,Needs Review,2026-03-02 05:40:00,Resolved
+CASE-0506,A-008,2026-03-15 09:09:00,Low,Closed,False Positive,2026-03-17 03:09:00,False Positive
+CASE-0507,A-008,2026-02-25 16:17:00,Medium,Closed,Needs Review,2026-02-26 06:17:00,False Positive
+CASE-0508,A-008,2026-03-01 10:26:00,Low,Closed,True Positive,2026-03-02 17:26:00,Resolved
+CASE-0509,A-008,2026-01-02 04:43:00,Medium,In Progress,False Positive,,
+CASE-0510,A-008,2026-01-09 17:01:00,High,Closed,True Positive,2026-01-12 09:01:00,Contained
+CASE-0511,A-008,2026-01-12 17:53:00,Low,Closed,True Positive,2026-01-15 10:53:00,False Positive
+CASE-0512,A-008,2026-02-09 19:04:00,High,Closed,Benign,2026-02-12 00:04:00,Resolved
+CASE-0513,A-008,2026-01-23 21:41:00,Low,Closed,Needs Review,2026-01-26 01:41:00,No Further Action
+CASE-0514,A-008,2026-01-26 20:44:00,Medium,Closed,Needs Review,2026-01-28 09:44:00,No Further Action
+CASE-0515,A-008,2026-01-31 16:18:00,Low,Closed,True Positive,2026-02-01 23:18:00,No Further Action
+CASE-0516,A-008,2026-02-14 20:13:00,Low,Closed,Benign,2026-02-15 15:13:00,False Positive
+CASE-0517,A-008,2026-01-14 03:34:00,Low,In Progress,Needs Review,,
+CASE-0518,A-008,2026-03-13 06:02:00,Low,Closed,False Positive,2026-03-15 03:02:00,No Further Action
+CASE-0519,A-008,2026-01-16 05:32:00,Critical,In Progress,False Positive,,
+CASE-0520,A-008,2026-02-08 22:54:00,Medium,Closed,True Positive,2026-02-09 15:54:00,No Further Action
+CASE-0521,A-008,2026-01-20 07:59:00,Medium,In Progress,Needs Review,,
+CASE-0522,A-008,2026-03-29 20:27:00,Low,Closed,True Positive,2026-03-30 10:27:00,False Positive
+CASE-0523,A-008,2026-02-25 16:22:00,Medium,Closed,True Positive,2026-02-27 08:22:00,Resolved
+CASE-0524,A-008,2026-01-12 11:03:00,High,Closed,Benign,2026-01-13 08:03:00,Resolved
+CASE-0525,A-008,2026-01-12 12:55:00,Low,In Progress,False Positive,,
+CASE-0526,A-008,2026-02-26 14:09:00,Medium,Closed,Benign,2026-02-27 05:09:00,Contained
+CASE-0527,A-008,2026-01-31 12:34:00,Low,Closed,False Positive,2026-01-31 15:34:00,No Further Action
+CASE-0528,A-008,2026-01-03 00:59:00,Low,Closed,True Positive,2026-01-05 02:59:00,Contained
+CASE-0529,A-008,2026-01-18 11:16:00,Critical,Closed,Needs Review,2026-01-19 21:16:00,No Further Action
+CASE-0530,A-008,2026-02-16 00:28:00,Low,Closed,True Positive,2026-02-16 19:28:00,False Positive
+CASE-0531,A-008,2026-03-18 10:47:00,Low,Open,Needs Review,,
+CASE-0532,A-008,2026-03-17 09:12:00,Low,Open,False Positive,,
+CASE-0533,A-008,2026-02-27 19:27:00,Low,Closed,True Positive,2026-02-28 03:27:00,No Further Action
+CASE-0534,A-008,2026-01-08 14:24:00,High,Closed,Benign,2026-01-09 11:24:00,Contained
+CASE-0535,A-008,2026-03-02 23:24:00,Low,Closed,False Positive,2026-03-04 06:24:00,False Positive
+CASE-0536,A-008,2026-01-21 23:57:00,High,Closed,Benign,2026-01-24 22:57:00,Resolved
+CASE-0537,A-008,2026-01-07 10:04:00,Medium,Closed,Benign,2026-01-08 01:04:00,No Further Action
+CASE-0538,A-008,2026-02-21 19:53:00,Low,Closed,Needs Review,2026-02-24 09:53:00,Resolved
+CASE-0539,A-008,2026-02-14 14:48:00,Low,Closed,True Positive,2026-02-15 20:48:00,Contained
+CASE-0540,A-008,2026-02-05 09:01:00,Low,In Progress,False Positive,,
+CASE-0541,A-008,2026-02-07 22:51:00,High,Closed,True Positive,2026-02-08 03:51:00,Resolved
+CASE-0542,A-008,2026-02-09 18:06:00,Low,Closed,False Positive,2026-02-09 20:06:00,False Positive
+CASE-0543,A-008,2026-03-17 15:19:00,Critical,Closed,Benign,2026-03-19 12:19:00,False Positive
+CASE-0544,A-008,2026-03-03 15:11:00,Medium,Closed,False Positive,2026-03-04 23:11:00,No Further Action
+CASE-0545,A-008,2026-01-03 22:01:00,Low,Closed,Benign,2026-01-04 06:01:00,Resolved
+CASE-0546,A-008,2026-02-27 06:45:00,Medium,In Progress,Needs Review,,
+CASE-0547,A-008,2026-03-23 18:59:00,Low,Closed,True Positive,2026-03-24 08:59:00,No Further Action
+CASE-0548,A-008,2026-03-16 06:52:00,Low,Closed,True Positive,2026-03-17 20:52:00,Contained
+CASE-0549,A-008,2026-02-14 22:04:00,High,Closed,Needs Review,2026-02-16 20:04:00,False Positive
+CASE-0550,A-008,2026-01-04 17:16:00,High,In Progress,Needs Review,,
+CASE-0551,A-008,2026-01-10 21:46:00,Low,In Progress,Benign,,
+CASE-0552,A-008,2026-01-30 01:04:00,Medium,Open,Needs Review,,
+CASE-0553,A-008,2026-01-17 11:27:00,Low,Closed,True Positive,2026-01-17 15:27:00,False Positive
+CASE-0554,A-008,2026-03-05 00:58:00,Medium,Open,True Positive,,
+CASE-0555,A-008,2026-02-20 08:51:00,Critical,In Progress,False Positive,,
+CASE-0556,A-008,2026-03-29 18:43:00,Medium,Closed,Benign,2026-03-30 22:43:00,Resolved
+CASE-0557,A-008,2026-02-21 08:23:00,Medium,Closed,Needs Review,2026-02-24 06:23:00,Resolved

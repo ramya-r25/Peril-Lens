@@ -320,3 +320,90 @@ alerts_df.to_csv(
 print("\nAlerts:")
 print(alerts_df.head())
 print(f"\nTotal alerts generated: {len(alerts_df)}")
+# -------------------------
+# Case Generation
+# -------------------------
+
+cases = []
+case_counter = 1
+
+for alert in alerts:
+    # Only some alerts become cases
+    if random.random() < 0.70:
+
+        case_created_time = datetime.strptime(
+            alert["timestamp"],
+            "%Y-%m-%d %H:%M:%S"
+        )
+
+        priority = alert["severity"]
+
+        # Most cases are resolved, but some remain open
+        status = random.choices(
+            ["Closed", "Open", "In Progress"],
+            weights=[75, 10, 15]
+        )[0]
+
+        disposition = random.choice([
+            "True Positive",
+            "False Positive",
+            "Benign",
+            "Needs Review"
+        ])
+
+        closure_time = None
+        closure_reason = None
+
+        if status == "Closed":
+            closure_time = (
+                case_created_time
+                + timedelta(
+                    hours=random.randint(1, 72)
+                )
+            )
+
+            closure_reason = random.choice([
+                "Resolved",
+                "False Positive",
+                "Contained",
+                "No Further Action"
+            ])
+
+        case_id = f"CASE-{case_counter:04d}"
+
+        cases.append({
+            "case_id": case_id,
+            "assessment_id": alert["assessment_id"],
+            "case_created_time": case_created_time.strftime(
+                "%Y-%m-%d %H:%M:%S"
+            ),
+            "priority": priority,
+            "status": status,
+            "disposition": disposition,
+            "closure_time": (
+                closure_time.strftime(
+                    "%Y-%m-%d %H:%M:%S"
+                )
+                if closure_time
+                else None
+            ),
+            "closure_reason": closure_reason
+        })
+
+        # Link the alert to its case
+        alert["case_id"] = case_id
+
+        case_counter += 1
+
+
+cases_df = pd.DataFrame(cases)
+
+cases_df.to_csv(
+    "data/synthetic/cases.csv",
+    index=False
+)
+
+print("\nCases:")
+print(cases_df.head())
+
+print(f"\nTotal cases generated: {len(cases_df)}")
