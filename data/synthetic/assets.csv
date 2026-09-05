@@ -1,0 +1,9 @@
+asset_id,entity_id,asset_name,asset_type,criticality,business_function,expected_monitoring
+AST-001,CSE-001,PowerGrid Control System,Industrial Control System,Critical,Power Operations,True
+AST-002,CSE-001,Corporate Network,Enterprise Network,High,Corporate IT,True
+AST-003,CSE-002,Core Banking Platform,Application Server,Critical,Banking Operations,True
+AST-004,CSE-002,Employee Network,Enterprise Network,Medium,Corporate IT,True
+AST-005,CSE-003,Flight Operations System,Operational System,Critical,Flight Operations,True
+AST-006,CSE-004,Patient Information System,Healthcare Application,Critical,Healthcare Services,True
+AST-007,CSE-005,Telecom Core Network,Network Infrastructure,Critical,Telecommunications,True
+AST-008,CSE-006,Water Treatment Control System,Industrial Control System,Critical,Water Operations,True
