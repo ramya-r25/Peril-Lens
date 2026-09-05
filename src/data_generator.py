@@ -203,3 +203,120 @@ assets_df.to_csv(
 
 print("\nAssets:")
 print(assets_df)
+
+import random
+from datetime import datetime, timedelta
+
+
+# -----------------------------
+# Alert Data Generation
+# -----------------------------
+
+alert_categories = [
+    "Authentication",
+    "Network Anomaly",
+    "Malware Detection",
+    "Privilege Escalation",
+    "Data Access",
+    "Endpoint Security"
+]
+
+sources = [
+    "SIEM",
+    "EDR",
+    "IDS",
+    "Firewall",
+    "IAM"
+]
+
+severities = [
+    "Low",
+    "Medium",
+    "High",
+    "Critical"
+]
+
+
+alerts = []
+
+alert_counter = 1
+
+for assessment in assessments:
+
+    assessment_id = assessment["assessment_id"]
+    entity_id = assessment["entity_id"]
+
+    # Get assets belonging to this entity
+    entity_assets = [
+        asset for asset in assets
+        if asset["entity_id"] == entity_id
+    ]
+
+    start_date = datetime.strptime(
+        assessment["period_start"],
+        "%Y-%m-%d"
+    )
+
+    for _ in range(100):
+
+        asset = random.choice(entity_assets)
+
+        severity = random.choices(
+            severities,
+            weights=[40, 30, 20, 10]
+        )[0]
+
+        alert_time = start_date + timedelta(
+            days=random.randint(0, 89),
+            hours=random.randint(0, 23),
+            minutes=random.randint(0, 59)
+        )
+
+        acknowledged = random.random() < 0.95
+
+        acknowledgement_time = None
+
+        if acknowledged:
+            acknowledgement_time = (
+                alert_time
+                + timedelta(
+                    minutes=random.randint(5, 180)
+                )
+            )
+
+        alerts.append({
+            "alert_id": f"ALT-{alert_counter:04d}",
+            "assessment_id": assessment_id,
+            "asset_id": asset["asset_id"],
+            "timestamp": alert_time.strftime(
+                "%Y-%m-%d %H:%M:%S"
+            ),
+            "severity": severity,
+            "alert_category": random.choice(
+                alert_categories
+            ),
+            "source": random.choice(sources),
+            "acknowledged": acknowledged,
+            "acknowledgement_time": (
+                acknowledgement_time.strftime(
+                    "%Y-%m-%d %H:%M:%S"
+                )
+                if acknowledgement_time
+                else None
+            ),
+            "case_id": None
+        })
+
+        alert_counter += 1
+
+
+alerts_df = pd.DataFrame(alerts)
+
+alerts_df.to_csv(
+    "data/synthetic/alerts.csv",
+    index=False
+)
+
+print("\nAlerts:")
+print(alerts_df.head())
+print(f"\nTotal alerts generated: {len(alerts_df)}")
