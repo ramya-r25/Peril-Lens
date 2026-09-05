@@ -557,3 +557,71 @@ print(
     f"\nTotal escalations generated: "
     f"{len(escalations_df)}"
 )
+
+# -------------------------
+# Monitoring Generation
+# -------------------------
+
+monitoring = []
+monitoring_counter = 1
+
+for assessment in assessments:
+
+    assessment_id = assessment["assessment_id"]
+    entity_id = assessment["entity_id"]
+
+    # Get assets belonging to this entity
+    entity_assets = [
+        asset for asset in assets
+        if asset["entity_id"] == entity_id
+    ]
+
+    for asset in entity_assets:
+
+        # Each assessment represents roughly 90 days
+        expected_coverage_hours = 2160
+
+        # Observed coverage varies
+        observed_coverage_hours = random.randint(
+            1200,
+            2160
+        )
+
+        telemetry_available = (
+            observed_coverage_hours > 0
+        )
+
+        monitoring.append({
+            "monitoring_id": (
+                f"MON-{monitoring_counter:04d}"
+            ),
+            "assessment_id": assessment_id,
+            "asset_id": asset["asset_id"],
+            "expected_coverage_hours": (
+                expected_coverage_hours
+            ),
+            "observed_coverage_hours": (
+                observed_coverage_hours
+            ),
+            "telemetry_available": (
+                telemetry_available
+            )
+        })
+
+        monitoring_counter += 1
+
+
+monitoring_df = pd.DataFrame(monitoring)
+
+monitoring_df.to_csv(
+    "data/synthetic/monitoring.csv",
+    index=False
+)
+
+print("\nMonitoring:")
+print(monitoring_df.head())
+
+print(
+    f"\nTotal monitoring records generated: "
+    f"{len(monitoring_df)}"
+)
