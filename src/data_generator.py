@@ -407,3 +407,81 @@ print("\nCases:")
 print(cases_df.head())
 
 print(f"\nTotal cases generated: {len(cases_df)}")
+
+# -------------------------
+# Investigation Generation
+# -------------------------
+
+investigations = []
+investigation_counter = 1
+
+for case in cases:
+
+    # Not every case gets an investigation
+    if random.random() < 0.85:
+
+        start_time = datetime.strptime(
+            case["case_created_time"],
+            "%Y-%m-%d %H:%M:%S"
+        )
+
+        # Investigation duration varies
+        duration_minutes = random.randint(10, 480)
+
+        end_time = start_time + timedelta(
+            minutes=duration_minutes
+        )
+
+        evidence_count = random.randint(0, 15)
+
+        steps_recorded = random.randint(0, 10)
+
+        root_cause_identified = random.random() < 0.65
+
+        remediation_recorded = random.random() < 0.60
+
+        template_id = random.choice([
+            "TEMP-001",
+            "TEMP-002",
+            "TEMP-003",
+            None
+        ])
+
+        notes_length = random.randint(20, 1000)
+
+        investigations.append({
+            "investigation_id": (
+                f"INV-{investigation_counter:04d}"
+            ),
+            "case_id": case["case_id"],
+            "start_time": start_time.strftime(
+                "%Y-%m-%d %H:%M:%S"
+            ),
+            "end_time": end_time.strftime(
+                "%Y-%m-%d %H:%M:%S"
+            ),
+            "evidence_count": evidence_count,
+            "steps_recorded": steps_recorded,
+            "root_cause_identified": root_cause_identified,
+            "remediation_recorded": remediation_recorded,
+            "template_id": template_id,
+            "notes_length": notes_length
+        })
+
+        investigation_counter += 1
+
+
+investigations_df = pd.DataFrame(investigations)
+
+investigations_df.to_csv(
+    "data/synthetic/investigations.csv",
+    index=False
+)
+
+print("\nInvestigations:")
+print(investigations_df.head())
+
+print(
+    f"\nTotal investigations generated: "
+    f"{len(investigations_df)}"
+)
