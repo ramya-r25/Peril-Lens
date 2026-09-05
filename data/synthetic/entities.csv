@@ -1,0 +1,7 @@
+entity_id,entity_name,sector,entity_size
+CSE-001,NorthGrid Power,Energy,Large
+CSE-002,MetroBank,Banking,Large
+CSE-003,AeroLink Systems,Transport,Medium
+CSE-004,NationalHealth Network,Healthcare,Large
+CSE-005,SecureTel Communications,Telecommunications,Large
+CSE-006,RiverWater Utilities,Water,Medium
