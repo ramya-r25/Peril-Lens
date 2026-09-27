@@ -1,191 +1,117 @@
-# Peril-Lens
+<div align="center">
 
-## Supervisory Analytics Tool for SOC Assessment (SAT-SA)
+# 🔎 Peril-Lens
 
-**SIH Problem Statement:** SIH26157  
-**Organization:** National Technical Research Organisation (NTRO)  
-**Category:** Software  
-**Theme:** Blockchain & Cybersecurity
+### Explainable Supervisory Analytics for SOC Assessment
 
----
+**Evidence-driven analytics for identifying potential operational weaknesses, detecting supervisory signals, and prioritizing manual review across Critical Sector Entities.**
 
-## 1. Overview
+<br>
 
-**Peril-Lens** is a supervisory analytics platform designed to assist supervisors in analysing structured SOC alert and case-management data from Critical Sector Entities (CSEs).
+[![Python](https://img.shields.io/badge/Python-3.x-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![Streamlit](https://img.shields.io/badge/Streamlit-Dashboard-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://streamlit.io/)
+[![Pandas](https://img.shields.io/badge/Pandas-Analytics-150458?style=for-the-badge&logo=pandas&logoColor=white)](https://pandas.pydata.org/)
+[![Plotly](https://img.shields.io/badge/Plotly-Visualization-3F4F75?style=for-the-badge&logo=plotly&logoColor=white)](https://plotly.com/)
+[![Offline](https://img.shields.io/badge/Deployment-Offline%20%2F%20Air--Gapped-1F2937?style=for-the-badge)](#-offline-by-design)
+[![SIH 2026](https://img.shields.io/badge/SIH%202026-SIH26157-6D28D9?style=for-the-badge)](#-problem-context)
 
-The platform focuses on identifying operational evidence that may indicate:
+<br>
 
-- Potential execution gaps
-- Potential negative-space conditions
-- Operational anomalies and suspicious patterns
-- Peer deviations
-- Unusual investigation or escalation behaviour
-- Entities requiring supervisory attention
-- Alert and case samples requiring manual review
+**Problem Statement:** SIH26157 — Supervisory Analytics Tool for SOC Assessment (SAT-SA)
 
-Peril-Lens is designed as a **supervisory analytics capability**, not as a replacement for a Security Operations Centre (SOC), SIEM, real-time monitoring system, or human supervisory judgement.
-
-The platform follows a human-in-the-loop approach in which analytical findings are presented with supporting evidence and rationale for further examination by supervisors.
+</div>
 
 ---
 
-## 2. Problem Statement
+## 🧭 Overview
 
-Manual review of SOC alerts and case-management records can reveal operational weaknesses that may not be visible through conventional reports, policies, audits, KPIs, or compliance documentation.
+**Peril-Lens** is an offline supervisory analytics prototype designed to support the assessment of Security Operations Centre (SOC) effectiveness across **Critical Sector Entities (CSEs)**.
 
-However, manual analysis becomes resource-intensive when supervisory assessments involve:
+Traditional supervisory assessment can involve manually reviewing samples of SOC alerts, investigations, escalations, and case-management records. These operational records can reveal weaknesses that may not be visible through policies, compliance documentation, management reports, KPIs, or conventional dashboards.
 
-- Multiple Critical Sector Entities
-- Large volumes of alert and case records
-- Multiple assessment periods
-- Repetitive investigation patterns
-- Cross-entity comparisons
-- Missing or unexpected operational evidence
+Peril-Lens analyzes structured SOC evidence to surface **potential supervisory signals** such as:
 
-Peril-Lens addresses this challenge by applying structured supervisory analytics to periodic operational data and helping supervisors identify where deeper manual review may be required.
+- 🔍 Execution gaps
+- 🌑 Negative-space conditions
+- 🚨 Unusual operational patterns
+- 📊 Peer deviations
+- 🧭 Supervisory attention indicators
+- 🎯 High-value samples for manual examination
 
----
-
-## 3. Proposed Solution
-
-Peril-Lens follows the workflow:
-
-**Structured Evidence → Analytics → Supervisory Signals → Prioritisation → Explanation → Human Review**
-
-The system processes structured SOC and case-management information and generates supervisory signals across multiple analytical dimensions.
-
-These signals are not treated as final compliance or security judgements. They are intended to support human examiners by identifying areas that may warrant further investigation.
+The platform is designed to **support human supervisory judgement — not replace it**.
 
 ---
 
-## 4. Key Capabilities
+## 🎯 Problem Context
 
-### 4.1 Data Ingestion
+SOC assessments often rely on evidence distributed across alerts, cases, investigations, escalation records, monitoring information, and asset inventories.
 
-Supports structured supervisory data used for analysis, including information representing:
-
-- Security alert metadata
-- Case-management records
-- Investigation activity
-- Escalation information
-- Alert disposition and closure information
-- Asset and system information where available
-
----
-
-### 4.2 Execution Gap Detection
-
-Identifies patterns where reported or expected operational effectiveness may not be supported by the available operational evidence.
+A challenge arises when reported controls and metrics appear healthy while operational evidence tells a different story.
 
 Examples include:
 
-- Unusually rapid case closure
-- Weak investigation behaviour
-- Missing escalation patterns
-- Repetitive investigation behaviour
-- Operational activity inconsistent with expected controls
+- High-severity alerts being closed unusually quickly
+- Critical alerts lacking expected escalation
+- Repeated alerts affecting the same asset without visible remediation
+- Investigations containing repetitive or template-like patterns
+- Critical systems showing unexpectedly low monitoring activity
+- Important alert categories appearing absent
+- Workloads or closure behaviour deviating significantly from peers
+- Operational metrics appearing inconsistent with underlying evidence
+
+These signals may be difficult to identify consistently when large volumes of records must be reviewed manually.
+
+**Peril-Lens addresses this gap through structured, explainable supervisory analytics.**
 
 ---
 
-### 4.3 Negative Space Detection
+## 💡 What Peril-Lens Does
 
-Identifies situations where expected operational evidence is absent or unusually limited.
-
-Examples include:
-
-- Missing monitoring evidence
-- Low activity in areas where activity may be expected
-- Missing investigation or escalation records
-- Potential monitoring blind spots
-
----
-
-### 4.4 Anomaly and Operational Pattern Analysis
-
-Analyses operational records to identify unusual patterns, outliers and behaviours that may require supervisory attention.
-
----
-
-### 4.5 Peer Benchmarking
-
-Compares relevant operational indicators across CSEs to identify significant deviations from peer patterns.
-
-Peer comparison is used as a supervisory signal and does not by itself represent a compliance judgement.
-
----
-
-### 4.6 Supervisory Prioritisation
-
-Combines analytical findings into a prioritisation view that helps supervisors determine:
-
-- Which entities may require attention
-- Which assessments may require deeper review
-- Which controls or processes may warrant examination
-- Which alert or case samples may be useful for manual review
-
----
-
-### 4.7 Explainability and Evidence
-
-Peril-Lens provides supporting information for analytical findings so that supervisors can understand:
-
-- What was detected
-- Why it was flagged
-- Which operational evidence contributed to the finding
-- Which entity or assessment is affected
-
-The objective is to preserve traceability and support auditable supervisory decision-making.
-
----
-
-### 4.8 Supervisory Dashboards and Reporting
-
-The platform provides dashboard-based views for:
-
-- Supervisory indicators
-- Assessment trends
-- Entity-level observations
-- Prioritisation
-- Notable signals
-- Supporting evidence and drill-down analysis
-
----
-
-## 5. Analytics Methodology
-
-The analytical pipeline is organised into modular components:
+Peril-Lens follows an evidence-to-signal workflow:
 
 ```text
-Structured CSE Data
-        |
-        v
-Data Ingestion
-        |
-        v
-Preprocessing & Feature Extraction
-        |
-        v
-+-------------------------------+
-| Supervisory Analytics         |
-|                               |
-| Execution Gap Detection       |
-| Negative Space Detection      |
-| Anomaly Detection             |
-| Operational Pattern Analysis  |
-| Peer Benchmarking             |
-+-------------------------------+
-        |
-        v
-Supervisory Risk Indicators
-        |
-        v
-Prioritisation
-        |
-        v
-Evidence & Explainability
-        |
-        v
-Dashboard / Reports
-        |
-        v
-Human Supervisory Review
+┌─────────────────────────────┐
+│     Structured SOC Data     │
+│                             │
+│ Alerts • Cases •            │
+│ Investigations • Escalation │
+│ Monitoring • Assets         │
+└──────────────┬──────────────┘
+               │
+               ▼
+┌─────────────────────────────┐
+│ Data Validation &            │
+│ Feature Engineering          │
+└──────────────┬──────────────┘
+               │
+               ▼
+┌─────────────────────────────────────────┐
+│       Supervisory Analytics Layer       │
+│                                         │
+│  Execution Gaps     Negative Space      │
+│  Operational       Peer Benchmarking    │
+│  Patterns          Supervisory Signals  │
+└───────────────────┬─────────────────────┘
+                    │
+                    ▼
+┌─────────────────────────────┐
+│ Explainability & Evidence   │
+│                             │
+│ Why was it flagged?         │
+│ What evidence supports it?  │
+└──────────────┬──────────────┘
+               │
+               ▼
+┌─────────────────────────────┐
+│ Supervisory Prioritization  │
+│                             │
+│ Entities • Controls •       │
+│ Processes • Alert Samples   │
+└──────────────┬──────────────┘
+               │
+               ▼
+┌─────────────────────────────┐
+│      Peril-Lens Dashboard   │
+│                             │
+│ Human Supervisory Review    │
+└─────────────────────────────┘
