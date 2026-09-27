@@ -1,171 +1,104 @@
 escalation_id,case_id,escalated,escalation_level,escalated_to,escalation_time,escalation_reason
-ESC-0001,CASE-0001,True,Level 2,Incident Response Team,2026-04-01 04:56:00,Potential Security Incident
-ESC-0002,CASE-0007,True,Level 2,Incident Response Team,2026-02-02 01:35:00,Critical Asset Involved
-ESC-0003,CASE-0009,True,Level 1,SOC Lead,2026-03-15 05:01:00,Investigation Requires Escalation
-ESC-0004,CASE-0017,True,Level 1,Security Manager,2026-03-12 07:21:00,Critical Asset Involved
-ESC-0005,CASE-0019,True,Level 2,SOC Lead,2026-03-02 21:06:00,Critical Asset Involved
-ESC-0006,CASE-0022,True,Level 1,CISO Office,2026-02-01 15:46:00,Critical Asset Involved
-ESC-0007,CASE-0026,True,Level 3,SOC Lead,2026-01-10 08:33:00,High Severity Alert
-ESC-0008,CASE-0031,True,Level 1,CISO Office,2026-03-19 14:24:00,Investigation Requires Escalation
-ESC-0009,CASE-0035,True,Level 3,Security Manager,2026-03-31 06:59:00,Repeated Alert Pattern
-ESC-0010,CASE-0036,True,Level 2,SOC Lead,2026-01-25 12:21:00,High Severity Alert
-ESC-0011,CASE-0040,True,Level 2,SOC Lead,2026-03-28 19:20:00,Repeated Alert Pattern
-ESC-0012,CASE-0043,True,Level 3,CISO Office,2026-03-30 04:19:00,Repeated Alert Pattern
-ESC-0013,CASE-0044,True,Level 3,Security Manager,2026-04-01 02:21:00,High Severity Alert
-ESC-0014,CASE-0045,True,Level 1,SOC Lead,2026-03-28 01:34:00,Critical Asset Involved
-ESC-0015,CASE-0047,True,Level 1,SOC Lead,2026-01-28 18:58:00,Investigation Requires Escalation
-ESC-0016,CASE-0053,True,Level 1,Incident Response Team,2026-03-11 07:45:00,Critical Asset Involved
-ESC-0017,CASE-0057,True,Level 2,CISO Office,2026-02-23 22:33:00,Potential Security Incident
-ESC-0018,CASE-0059,True,Level 1,SOC Lead,2026-03-17 19:47:00,Potential Security Incident
-ESC-0019,CASE-0060,True,Level 1,Incident Response Team,2026-03-15 12:15:00,Repeated Alert Pattern
-ESC-0020,CASE-0061,True,Level 3,Incident Response Team,2026-03-05 04:12:00,Critical Asset Involved
-ESC-0021,CASE-0062,True,Level 1,SOC Lead,2026-03-16 23:54:00,Repeated Alert Pattern
-ESC-0022,CASE-0064,True,Level 2,CISO Office,2026-01-26 01:58:00,Investigation Requires Escalation
-ESC-0023,CASE-0068,True,Level 2,Security Manager,2026-03-22 00:34:00,Critical Asset Involved
-ESC-0024,CASE-0073,True,Level 3,Incident Response Team,2026-06-17 17:11:00,Critical Asset Involved
-ESC-0025,CASE-0074,True,Level 1,Incident Response Team,2026-06-29 17:12:00,High Severity Alert
-ESC-0026,CASE-0077,True,Level 1,Incident Response Team,2026-04-25 15:56:00,Critical Asset Involved
-ESC-0027,CASE-0078,True,Level 2,Security Manager,2026-05-23 16:02:00,Repeated Alert Pattern
-ESC-0028,CASE-0084,True,Level 2,Incident Response Team,2026-04-18 07:31:00,Investigation Requires Escalation
-ESC-0029,CASE-0092,True,Level 1,Incident Response Team,2026-04-26 17:25:00,Critical Asset Involved
-ESC-0030,CASE-0094,True,Level 2,Security Manager,2026-05-09 03:41:00,Critical Asset Involved
-ESC-0031,CASE-0099,True,Level 2,CISO Office,2026-05-07 03:49:00,High Severity Alert
-ESC-0032,CASE-0105,True,Level 2,CISO Office,2026-06-18 01:14:00,High Severity Alert
-ESC-0033,CASE-0109,True,Level 2,SOC Lead,2026-06-12 08:37:00,Investigation Requires Escalation
-ESC-0034,CASE-0110,True,Level 2,SOC Lead,2026-05-06 07:03:00,High Severity Alert
-ESC-0035,CASE-0112,True,Level 2,CISO Office,2026-06-03 07:49:00,Repeated Alert Pattern
-ESC-0036,CASE-0117,True,Level 1,Incident Response Team,2026-04-15 01:23:00,Critical Asset Involved
-ESC-0037,CASE-0119,True,Level 3,Incident Response Team,2026-05-16 00:20:00,Investigation Requires Escalation
-ESC-0038,CASE-0124,True,Level 1,Security Manager,2026-06-11 18:34:00,Critical Asset Involved
-ESC-0039,CASE-0125,True,Level 3,Incident Response Team,2026-06-04 10:12:00,Critical Asset Involved
-ESC-0040,CASE-0129,True,Level 2,Security Manager,2026-04-11 11:45:00,Repeated Alert Pattern
-ESC-0041,CASE-0134,True,Level 1,SOC Lead,2026-05-07 23:16:00,Potential Security Incident
-ESC-0042,CASE-0137,True,Level 3,SOC Lead,2026-05-15 21:51:00,High Severity Alert
-ESC-0043,CASE-0139,True,Level 1,Incident Response Team,2026-05-08 08:38:00,Repeated Alert Pattern
-ESC-0044,CASE-0143,True,Level 1,Incident Response Team,2026-01-07 08:51:00,Potential Security Incident
-ESC-0045,CASE-0144,True,Level 1,Incident Response Team,2026-03-12 01:04:00,Critical Asset Involved
-ESC-0046,CASE-0148,True,Level 3,Security Manager,2026-02-17 18:26:00,Investigation Requires Escalation
-ESC-0047,CASE-0149,True,Level 3,CISO Office,2026-03-06 09:56:00,Critical Asset Involved
-ESC-0048,CASE-0151,True,Level 3,CISO Office,2026-02-24 10:29:00,Critical Asset Involved
-ESC-0049,CASE-0152,True,Level 2,SOC Lead,2026-03-20 09:59:00,Repeated Alert Pattern
-ESC-0050,CASE-0154,True,Level 2,CISO Office,2026-02-28 04:32:00,Investigation Requires Escalation
-ESC-0051,CASE-0155,True,Level 2,Incident Response Team,2026-03-09 04:15:00,Investigation Requires Escalation
-ESC-0052,CASE-0156,True,Level 3,Security Manager,2026-01-18 10:37:00,Critical Asset Involved
-ESC-0053,CASE-0164,True,Level 2,Security Manager,2026-03-07 00:09:00,Repeated Alert Pattern
-ESC-0054,CASE-0166,True,Level 1,SOC Lead,2026-01-14 01:03:00,High Severity Alert
-ESC-0055,CASE-0170,True,Level 3,Security Manager,2026-03-17 06:28:00,High Severity Alert
-ESC-0056,CASE-0179,True,Level 3,SOC Lead,2026-01-26 13:30:00,Investigation Requires Escalation
-ESC-0057,CASE-0180,True,Level 2,CISO Office,2026-01-05 14:04:00,Repeated Alert Pattern
-ESC-0058,CASE-0182,True,Level 2,CISO Office,2026-01-16 08:45:00,Investigation Requires Escalation
-ESC-0059,CASE-0184,True,Level 3,CISO Office,2026-02-19 21:34:00,High Severity Alert
-ESC-0060,CASE-0185,True,Level 1,Security Manager,2026-03-27 13:28:00,High Severity Alert
-ESC-0061,CASE-0186,True,Level 1,CISO Office,2026-01-20 19:54:00,Potential Security Incident
-ESC-0062,CASE-0191,True,Level 2,CISO Office,2026-01-05 16:45:00,Potential Security Incident
-ESC-0063,CASE-0193,True,Level 3,Security Manager,2026-03-27 11:47:00,Repeated Alert Pattern
-ESC-0064,CASE-0196,True,Level 1,Security Manager,2026-02-19 15:11:00,Potential Security Incident
-ESC-0065,CASE-0200,True,Level 1,SOC Lead,2026-03-05 10:37:00,Repeated Alert Pattern
-ESC-0066,CASE-0203,True,Level 1,Security Manager,2026-04-02 20:05:00,Repeated Alert Pattern
-ESC-0067,CASE-0210,True,Level 2,Security Manager,2026-05-15 21:27:00,Investigation Requires Escalation
-ESC-0068,CASE-0214,True,Level 3,CISO Office,2026-04-12 03:54:00,Potential Security Incident
-ESC-0069,CASE-0215,True,Level 3,Security Manager,2026-05-29 05:41:00,Repeated Alert Pattern
-ESC-0070,CASE-0216,True,Level 1,Security Manager,2026-06-17 09:28:00,Investigation Requires Escalation
-ESC-0071,CASE-0218,True,Level 2,SOC Lead,2026-05-24 17:40:00,Critical Asset Involved
-ESC-0072,CASE-0221,True,Level 1,Incident Response Team,2026-06-28 23:52:00,Critical Asset Involved
-ESC-0073,CASE-0225,True,Level 1,SOC Lead,2026-05-01 19:19:00,Investigation Requires Escalation
-ESC-0074,CASE-0230,True,Level 3,CISO Office,2026-05-29 13:24:00,Investigation Requires Escalation
-ESC-0075,CASE-0237,True,Level 2,Incident Response Team,2026-06-15 15:51:00,Potential Security Incident
-ESC-0076,CASE-0239,True,Level 2,Incident Response Team,2026-04-18 10:25:00,Investigation Requires Escalation
-ESC-0077,CASE-0241,True,Level 3,CISO Office,2026-05-28 08:59:00,Investigation Requires Escalation
-ESC-0078,CASE-0252,True,Level 2,CISO Office,2026-06-01 23:45:00,Investigation Requires Escalation
-ESC-0079,CASE-0255,True,Level 2,SOC Lead,2026-05-03 04:17:00,Potential Security Incident
-ESC-0080,CASE-0258,True,Level 1,Security Manager,2026-04-02 20:48:00,Investigation Requires Escalation
-ESC-0081,CASE-0259,True,Level 3,CISO Office,2026-05-10 03:58:00,Repeated Alert Pattern
-ESC-0082,CASE-0263,True,Level 2,Security Manager,2026-05-17 17:26:00,Potential Security Incident
-ESC-0083,CASE-0264,True,Level 2,Incident Response Team,2026-06-14 15:36:00,Investigation Requires Escalation
-ESC-0084,CASE-0269,True,Level 3,SOC Lead,2026-06-22 00:47:00,High Severity Alert
-ESC-0085,CASE-0274,True,Level 1,Incident Response Team,2026-03-16 10:53:00,High Severity Alert
-ESC-0086,CASE-0277,True,Level 1,CISO Office,2026-01-27 00:28:00,Investigation Requires Escalation
-ESC-0087,CASE-0284,True,Level 2,Incident Response Team,2026-02-13 20:27:00,Repeated Alert Pattern
-ESC-0088,CASE-0287,True,Level 1,Incident Response Team,2026-03-28 10:58:00,Potential Security Incident
-ESC-0089,CASE-0293,True,Level 1,SOC Lead,2026-02-23 19:46:00,Potential Security Incident
-ESC-0090,CASE-0294,True,Level 3,SOC Lead,2026-01-12 10:25:00,High Severity Alert
-ESC-0091,CASE-0300,True,Level 1,CISO Office,2026-03-29 19:35:00,Critical Asset Involved
-ESC-0092,CASE-0303,True,Level 1,Security Manager,2026-03-18 18:37:00,Investigation Requires Escalation
-ESC-0093,CASE-0304,True,Level 3,Incident Response Team,2026-02-06 03:41:00,Investigation Requires Escalation
-ESC-0094,CASE-0305,True,Level 1,SOC Lead,2026-02-09 00:58:00,Investigation Requires Escalation
-ESC-0095,CASE-0308,True,Level 2,SOC Lead,2026-01-26 12:23:00,Potential Security Incident
-ESC-0096,CASE-0311,True,Level 2,Incident Response Team,2026-02-04 03:47:00,Investigation Requires Escalation
-ESC-0097,CASE-0312,True,Level 2,CISO Office,2026-03-07 22:20:00,Investigation Requires Escalation
-ESC-0098,CASE-0317,True,Level 2,Incident Response Team,2026-03-29 13:40:00,Critical Asset Involved
-ESC-0099,CASE-0321,True,Level 2,SOC Lead,2026-02-22 04:25:00,Investigation Requires Escalation
-ESC-0100,CASE-0322,True,Level 2,CISO Office,2026-03-01 03:11:00,Investigation Requires Escalation
-ESC-0101,CASE-0324,True,Level 2,Incident Response Team,2026-02-21 18:37:00,Potential Security Incident
-ESC-0102,CASE-0328,True,Level 2,SOC Lead,2026-03-29 05:39:00,Potential Security Incident
-ESC-0103,CASE-0337,True,Level 2,Incident Response Team,2026-01-15 17:00:00,Potential Security Incident
-ESC-0104,CASE-0340,True,Level 2,Incident Response Team,2026-03-06 10:31:00,Potential Security Incident
-ESC-0105,CASE-0342,True,Level 2,Incident Response Team,2026-02-17 22:19:00,Investigation Requires Escalation
-ESC-0106,CASE-0346,True,Level 1,Security Manager,2026-01-08 00:49:00,High Severity Alert
-ESC-0107,CASE-0351,True,Level 1,SOC Lead,2026-01-18 12:12:00,Potential Security Incident
-ESC-0108,CASE-0352,True,Level 3,Security Manager,2026-02-16 02:12:00,Critical Asset Involved
-ESC-0109,CASE-0357,True,Level 3,Incident Response Team,2026-03-24 04:05:00,Investigation Requires Escalation
-ESC-0110,CASE-0364,True,Level 3,Security Manager,2026-01-23 16:22:00,Repeated Alert Pattern
-ESC-0111,CASE-0368,True,Level 2,Security Manager,2026-01-10 18:57:00,Investigation Requires Escalation
-ESC-0112,CASE-0369,True,Level 1,CISO Office,2026-02-27 02:24:00,Critical Asset Involved
-ESC-0113,CASE-0371,True,Level 1,SOC Lead,2026-01-03 16:10:00,Critical Asset Involved
-ESC-0114,CASE-0374,True,Level 1,Security Manager,2026-01-09 18:00:00,Repeated Alert Pattern
-ESC-0115,CASE-0375,True,Level 2,Security Manager,2026-03-05 03:22:00,High Severity Alert
-ESC-0116,CASE-0379,True,Level 3,CISO Office,2026-03-06 04:09:00,Critical Asset Involved
-ESC-0117,CASE-0380,True,Level 2,CISO Office,2026-03-04 08:47:00,High Severity Alert
-ESC-0118,CASE-0381,True,Level 2,Incident Response Team,2026-02-28 02:49:00,High Severity Alert
-ESC-0119,CASE-0384,True,Level 2,CISO Office,2026-01-31 00:02:00,Critical Asset Involved
-ESC-0120,CASE-0392,True,Level 1,Security Manager,2026-02-02 16:48:00,Potential Security Incident
-ESC-0121,CASE-0395,True,Level 1,CISO Office,2026-03-04 06:48:00,Repeated Alert Pattern
-ESC-0122,CASE-0396,True,Level 3,SOC Lead,2026-02-28 08:37:00,Critical Asset Involved
-ESC-0123,CASE-0397,True,Level 2,CISO Office,2026-03-23 07:59:00,High Severity Alert
-ESC-0124,CASE-0399,True,Level 3,Security Manager,2026-03-08 18:38:00,Investigation Requires Escalation
-ESC-0125,CASE-0400,True,Level 2,SOC Lead,2026-02-16 16:35:00,High Severity Alert
-ESC-0126,CASE-0405,True,Level 2,SOC Lead,2026-02-16 04:02:00,Critical Asset Involved
-ESC-0127,CASE-0408,True,Level 3,SOC Lead,2026-02-03 06:51:00,Repeated Alert Pattern
-ESC-0128,CASE-0410,True,Level 3,SOC Lead,2026-03-11 10:03:00,Investigation Requires Escalation
-ESC-0129,CASE-0412,True,Level 3,CISO Office,2026-03-01 03:29:00,Potential Security Incident
-ESC-0130,CASE-0416,True,Level 3,Security Manager,2026-02-18 23:23:00,Potential Security Incident
-ESC-0131,CASE-0423,True,Level 3,Incident Response Team,2026-01-10 01:52:00,Repeated Alert Pattern
-ESC-0132,CASE-0427,True,Level 1,SOC Lead,2026-02-17 00:00:00,Repeated Alert Pattern
-ESC-0133,CASE-0432,True,Level 2,Incident Response Team,2026-03-06 09:22:00,Repeated Alert Pattern
-ESC-0134,CASE-0442,True,Level 3,Incident Response Team,2026-01-30 03:39:00,Investigation Requires Escalation
-ESC-0135,CASE-0443,True,Level 3,Security Manager,2026-03-24 00:23:00,Repeated Alert Pattern
-ESC-0136,CASE-0448,True,Level 2,SOC Lead,2026-02-10 22:39:00,Investigation Requires Escalation
-ESC-0137,CASE-0454,True,Level 2,Incident Response Team,2026-02-08 10:30:00,Repeated Alert Pattern
-ESC-0138,CASE-0458,True,Level 2,Incident Response Team,2026-01-06 18:06:00,Potential Security Incident
-ESC-0139,CASE-0465,True,Level 2,Incident Response Team,2026-03-27 03:20:00,Critical Asset Involved
-ESC-0140,CASE-0472,True,Level 1,SOC Lead,2026-03-24 03:05:00,High Severity Alert
-ESC-0141,CASE-0473,True,Level 2,SOC Lead,2026-03-20 21:35:00,Potential Security Incident
-ESC-0142,CASE-0479,True,Level 2,CISO Office,2026-02-09 07:15:00,Repeated Alert Pattern
-ESC-0143,CASE-0481,True,Level 1,Incident Response Team,2026-02-28 07:14:00,Critical Asset Involved
-ESC-0144,CASE-0482,True,Level 3,CISO Office,2026-02-18 06:21:00,Critical Asset Involved
-ESC-0145,CASE-0486,True,Level 1,Incident Response Team,2026-01-19 10:41:00,Repeated Alert Pattern
-ESC-0146,CASE-0487,True,Level 1,CISO Office,2026-01-12 02:56:00,Repeated Alert Pattern
-ESC-0147,CASE-0489,True,Level 3,Security Manager,2026-02-24 18:14:00,Repeated Alert Pattern
-ESC-0148,CASE-0491,True,Level 2,Security Manager,2026-03-15 20:32:00,Potential Security Incident
-ESC-0149,CASE-0494,True,Level 3,Security Manager,2026-02-09 14:38:00,Repeated Alert Pattern
-ESC-0150,CASE-0496,True,Level 1,Security Manager,2026-03-30 10:10:00,Potential Security Incident
-ESC-0151,CASE-0499,True,Level 2,SOC Lead,2026-01-20 00:56:00,Investigation Requires Escalation
-ESC-0152,CASE-0502,True,Level 1,Security Manager,2026-03-31 23:13:00,Investigation Requires Escalation
-ESC-0153,CASE-0504,True,Level 1,SOC Lead,2026-01-15 22:52:00,Critical Asset Involved
-ESC-0154,CASE-0506,True,Level 2,SOC Lead,2026-02-13 22:08:00,Potential Security Incident
-ESC-0155,CASE-0510,True,Level 1,Incident Response Team,2026-02-20 14:55:00,Investigation Requires Escalation
-ESC-0156,CASE-0511,True,Level 1,Security Manager,2026-03-29 06:02:00,Repeated Alert Pattern
-ESC-0157,CASE-0512,True,Level 2,CISO Office,2026-03-21 08:57:00,High Severity Alert
-ESC-0158,CASE-0514,True,Level 2,Security Manager,2026-03-25 03:13:00,Investigation Requires Escalation
-ESC-0159,CASE-0523,True,Level 3,SOC Lead,2026-02-27 15:31:00,Potential Security Incident
-ESC-0160,CASE-0526,True,Level 1,Incident Response Team,2026-02-26 00:51:00,High Severity Alert
-ESC-0161,CASE-0527,True,Level 1,Incident Response Team,2026-02-02 23:20:00,High Severity Alert
-ESC-0162,CASE-0529,True,Level 3,Security Manager,2026-01-13 17:03:00,Investigation Requires Escalation
-ESC-0163,CASE-0530,True,Level 3,CISO Office,2026-01-05 15:28:00,Potential Security Incident
-ESC-0164,CASE-0532,True,Level 1,Incident Response Team,2026-02-18 17:00:00,Critical Asset Involved
-ESC-0165,CASE-0535,True,Level 1,CISO Office,2026-03-08 02:26:00,Critical Asset Involved
-ESC-0166,CASE-0536,True,Level 2,Security Manager,2026-03-30 18:19:00,Investigation Requires Escalation
-ESC-0167,CASE-0537,True,Level 3,CISO Office,2026-03-24 09:37:00,Investigation Requires Escalation
-ESC-0168,CASE-0545,True,Level 2,Incident Response Team,2026-01-16 15:23:00,Investigation Requires Escalation
-ESC-0169,CASE-0547,True,Level 3,SOC Lead,2026-03-04 06:43:00,Critical Asset Involved
-ESC-0170,CASE-0548,True,Level 1,Incident Response Team,2026-03-03 09:36:00,Repeated Alert Pattern
+ESC-0001,CASE-0002,True,Level 1,Security Lead,2026-01-05 03:44:00,Potential Security Incident
+ESC-0002,CASE-0003,True,Level 2,Security Lead,2026-03-31 20:10:00,Potential Security Incident
+ESC-0003,CASE-0008,True,Level 2,SOC Manager,2026-01-08 11:44:00,Critical Asset
+ESC-0004,CASE-0009,True,Level 3,SOC Manager,2026-01-18 21:04:00,Critical Asset
+ESC-0005,CASE-0010,True,Level 1,CISO,2026-02-25 03:49:00,Potential Security Incident
+ESC-0006,CASE-0011,True,Level 3,CISO,2026-01-21 22:12:00,Critical Asset
+ESC-0007,CASE-0020,True,Level 2,CISO,2026-01-31 15:18:00,Repeated Alert Pattern
+ESC-0008,CASE-0024,True,Level 1,Security Lead,2026-01-28 05:31:00,High Severity
+ESC-0009,CASE-0026,True,Level 1,CISO,2026-03-12 00:42:00,High Severity
+ESC-0010,CASE-0027,True,Level 2,Incident Response Team,2026-01-14 10:41:00,Potential Security Incident
+ESC-0011,CASE-0033,True,Level 3,Incident Response Team,2026-02-05 14:36:00,Critical Asset
+ESC-0012,CASE-0035,True,Level 3,Security Lead,2026-03-27 22:48:00,Investigation Requires Higher Review
+ESC-0013,CASE-0039,True,Level 3,Security Lead,2026-03-30 10:39:00,Critical Asset
+ESC-0014,CASE-0042,True,Level 1,SOC Manager,2026-02-12 14:16:00,Investigation Requires Higher Review
+ESC-0015,CASE-0050,True,Level 2,Security Lead,2026-02-10 01:52:00,Investigation Requires Higher Review
+ESC-0016,CASE-0054,True,Level 2,SOC Manager,2026-03-08 22:03:00,Potential Security Incident
+ESC-0017,CASE-0060,True,Level 2,Incident Response Team,2026-03-16 14:27:00,Repeated Alert Pattern
+ESC-0018,CASE-0071,True,Level 2,Incident Response Team,2026-06-10 08:50:00,High Severity
+ESC-0019,CASE-0076,True,Level 2,Security Lead,2026-05-24 11:40:00,High Severity
+ESC-0020,CASE-0086,True,Level 3,Security Lead,2026-05-09 03:26:00,High Severity
+ESC-0021,CASE-0089,True,Level 2,CISO,2026-04-18 04:25:00,Critical Asset
+ESC-0022,CASE-0095,True,Level 3,Security Lead,2026-05-27 12:31:00,Repeated Alert Pattern
+ESC-0023,CASE-0109,True,Level 1,CISO,2026-04-08 01:43:00,Investigation Requires Higher Review
+ESC-0024,CASE-0145,True,Level 3,Incident Response Team,2026-03-01 04:11:00,Potential Security Incident
+ESC-0025,CASE-0146,True,Level 2,SOC Manager,2026-01-21 23:49:00,Potential Security Incident
+ESC-0026,CASE-0153,True,Level 3,Security Lead,2026-03-16 18:24:00,Critical Asset
+ESC-0027,CASE-0160,True,Level 2,SOC Manager,2026-01-26 15:31:00,Potential Security Incident
+ESC-0028,CASE-0166,True,Level 3,SOC Manager,2026-03-27 18:12:00,Repeated Alert Pattern
+ESC-0029,CASE-0169,True,Level 2,Incident Response Team,2026-03-16 07:03:00,Repeated Alert Pattern
+ESC-0030,CASE-0170,True,Level 2,Security Lead,2026-02-18 18:08:00,Critical Asset
+ESC-0031,CASE-0172,True,Level 3,Security Lead,2026-02-24 04:57:00,Investigation Requires Higher Review
+ESC-0032,CASE-0175,True,Level 3,SOC Manager,2026-02-24 21:24:00,High Severity
+ESC-0033,CASE-0176,True,Level 3,CISO,2026-01-19 19:57:00,Critical Asset
+ESC-0034,CASE-0178,True,Level 2,Incident Response Team,2026-04-01 02:49:00,High Severity
+ESC-0035,CASE-0189,True,Level 2,SOC Manager,2026-02-14 10:02:00,Critical Asset
+ESC-0036,CASE-0192,True,Level 1,CISO,2026-01-10 13:50:00,Critical Asset
+ESC-0037,CASE-0193,True,Level 2,Incident Response Team,2026-04-12 01:10:00,Investigation Requires Higher Review
+ESC-0038,CASE-0198,True,Level 1,CISO,2026-05-24 20:42:00,Investigation Requires Higher Review
+ESC-0039,CASE-0209,True,Level 2,SOC Manager,2026-04-26 17:24:00,Potential Security Incident
+ESC-0040,CASE-0214,True,Level 3,CISO,2026-04-25 22:13:00,Potential Security Incident
+ESC-0041,CASE-0215,True,Level 3,Incident Response Team,2026-05-27 21:36:00,Investigation Requires Higher Review
+ESC-0042,CASE-0223,True,Level 1,SOC Manager,2026-06-01 12:11:00,Repeated Alert Pattern
+ESC-0043,CASE-0225,True,Level 2,CISO,2026-04-28 23:48:00,High Severity
+ESC-0044,CASE-0227,True,Level 3,Security Lead,2026-05-09 06:16:00,Potential Security Incident
+ESC-0045,CASE-0243,True,Level 3,Security Lead,2026-05-11 13:20:00,Investigation Requires Higher Review
+ESC-0046,CASE-0244,True,Level 2,SOC Manager,2026-05-11 14:49:00,Investigation Requires Higher Review
+ESC-0047,CASE-0245,True,Level 2,Incident Response Team,2026-05-12 07:54:00,Critical Asset
+ESC-0048,CASE-0250,True,Level 2,SOC Manager,2026-06-03 20:05:00,High Severity
+ESC-0049,CASE-0251,True,Level 2,CISO,2026-04-24 07:47:00,Repeated Alert Pattern
+ESC-0050,CASE-0253,True,Level 2,Incident Response Team,2026-06-15 12:59:00,Potential Security Incident
+ESC-0051,CASE-0254,True,Level 3,CISO,2026-06-12 09:24:00,Repeated Alert Pattern
+ESC-0052,CASE-0255,True,Level 2,CISO,2026-04-12 05:09:00,Critical Asset
+ESC-0053,CASE-0258,True,Level 2,SOC Manager,2026-01-24 08:01:00,Potential Security Incident
+ESC-0054,CASE-0259,True,Level 3,SOC Manager,2026-03-30 19:08:00,High Severity
+ESC-0055,CASE-0261,True,Level 1,SOC Manager,2026-03-27 21:20:00,Potential Security Incident
+ESC-0056,CASE-0263,True,Level 3,Security Lead,2026-01-22 15:12:00,Critical Asset
+ESC-0057,CASE-0264,True,Level 3,CISO,2026-03-16 00:24:00,Investigation Requires Higher Review
+ESC-0058,CASE-0274,True,Level 1,CISO,2026-03-17 19:49:00,Investigation Requires Higher Review
+ESC-0059,CASE-0275,True,Level 3,SOC Manager,2026-03-10 17:45:00,Potential Security Incident
+ESC-0060,CASE-0276,True,Level 3,Incident Response Team,2026-02-13 08:49:00,Investigation Requires Higher Review
+ESC-0061,CASE-0277,True,Level 1,CISO,2026-02-26 14:04:00,Investigation Requires Higher Review
+ESC-0062,CASE-0278,True,Level 3,Security Lead,2026-03-06 20:23:00,Investigation Requires Higher Review
+ESC-0063,CASE-0283,True,Level 1,Security Lead,2026-02-14 17:10:00,Critical Asset
+ESC-0064,CASE-0287,True,Level 1,CISO,2026-03-24 03:43:00,Investigation Requires Higher Review
+ESC-0065,CASE-0288,True,Level 3,SOC Manager,2026-03-13 17:07:00,Potential Security Incident
+ESC-0066,CASE-0292,True,Level 3,Incident Response Team,2026-02-11 21:31:00,Potential Security Incident
+ESC-0067,CASE-0293,True,Level 1,Security Lead,2026-02-14 20:19:00,Repeated Alert Pattern
+ESC-0068,CASE-0305,True,Level 1,Incident Response Team,2026-03-28 18:50:00,Potential Security Incident
+ESC-0069,CASE-0309,True,Level 2,SOC Manager,2026-02-16 11:29:00,High Severity
+ESC-0070,CASE-0310,True,Level 2,CISO,2026-02-17 02:10:00,Potential Security Incident
+ESC-0071,CASE-0312,True,Level 3,CISO,2026-02-27 13:18:00,Investigation Requires Higher Review
+ESC-0072,CASE-0316,True,Level 1,SOC Manager,2026-01-21 18:01:00,Critical Asset
+ESC-0073,CASE-0319,True,Level 1,CISO,2026-01-25 13:29:00,Investigation Requires Higher Review
+ESC-0074,CASE-0321,True,Level 2,Incident Response Team,2026-03-22 22:22:00,Potential Security Incident
+ESC-0075,CASE-0322,True,Level 1,Security Lead,2026-02-10 19:45:00,Repeated Alert Pattern
+ESC-0076,CASE-0326,True,Level 1,Incident Response Team,2026-01-23 04:40:00,Potential Security Incident
+ESC-0077,CASE-0351,True,Level 2,SOC Manager,2026-03-29 14:36:00,Investigation Requires Higher Review
+ESC-0078,CASE-0361,True,Level 1,CISO,2026-01-25 18:55:00,High Severity
+ESC-0079,CASE-0364,True,Level 1,CISO,2026-02-16 01:14:00,High Severity
+ESC-0080,CASE-0365,True,Level 1,CISO,2026-02-13 06:13:00,High Severity
+ESC-0081,CASE-0371,True,Level 3,SOC Manager,2026-02-18 17:57:00,Investigation Requires Higher Review
+ESC-0082,CASE-0373,True,Level 1,Security Lead,2026-02-22 04:36:00,Investigation Requires Higher Review
+ESC-0083,CASE-0374,True,Level 1,Security Lead,2026-02-06 16:06:00,Critical Asset
+ESC-0084,CASE-0379,True,Level 2,SOC Manager,2026-01-20 07:01:00,Critical Asset
+ESC-0085,CASE-0383,True,Level 2,SOC Manager,2026-03-02 21:41:00,Investigation Requires Higher Review
+ESC-0086,CASE-0386,True,Level 2,SOC Manager,2026-03-10 10:50:00,High Severity
+ESC-0087,CASE-0390,True,Level 2,Security Lead,2026-01-13 17:51:00,Critical Asset
+ESC-0088,CASE-0393,True,Level 1,SOC Manager,2026-02-11 07:16:00,Investigation Requires Higher Review
+ESC-0089,CASE-0394,True,Level 1,SOC Manager,2026-03-05 12:50:00,Investigation Requires Higher Review
+ESC-0090,CASE-0395,True,Level 3,CISO,2026-04-01 04:05:00,Repeated Alert Pattern
+ESC-0091,CASE-0409,True,Level 3,Incident Response Team,2026-02-08 09:43:00,Potential Security Incident
+ESC-0092,CASE-0412,True,Level 2,Incident Response Team,2026-02-20 16:01:00,Repeated Alert Pattern
+ESC-0093,CASE-0417,True,Level 3,Security Lead,2026-03-08 12:38:00,Repeated Alert Pattern
+ESC-0094,CASE-0429,True,Level 1,Security Lead,2026-02-18 10:13:00,Investigation Requires Higher Review
+ESC-0095,CASE-0442,True,Level 2,Incident Response Team,2026-01-19 15:37:00,Repeated Alert Pattern
+ESC-0096,CASE-0446,True,Level 1,CISO,2026-04-01 00:17:00,Critical Asset
+ESC-0097,CASE-0450,True,Level 2,Incident Response Team,2026-02-22 01:54:00,Repeated Alert Pattern
+ESC-0098,CASE-0460,True,Level 1,SOC Manager,2026-03-24 15:52:00,High Severity
+ESC-0099,CASE-0461,True,Level 1,Security Lead,2026-02-24 19:54:00,Potential Security Incident
+ESC-0100,CASE-0463,True,Level 3,Incident Response Team,2026-03-10 04:38:00,Potential Security Incident
+ESC-0101,CASE-0472,True,Level 3,Incident Response Team,2026-01-01 04:47:00,Critical Asset
+ESC-0102,CASE-0476,True,Level 3,CISO,2026-01-25 06:03:00,Critical Asset
+ESC-0103,CASE-0479,True,Level 2,SOC Manager,2026-03-10 05:57:00,Critical Asset
